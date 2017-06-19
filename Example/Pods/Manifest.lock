@@ -1,0 +1,25 @@
+PODS:
+  - AwesomeMVVM (0.1.0):
+    - RealmSwift
+  - Realm (2.8.1):
+    - Realm/Headers (= 2.8.1)
+  - Realm/Headers (2.8.1)
+  - RealmSwift (2.8.1):
+    - Realm (= 2.8.1)
+
+DEPENDENCIES:
+  - AwesomeMVVM (from `../`)
+  - RealmSwift
+
+EXTERNAL SOURCES:
+  AwesomeMVVM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AwesomeMVVM: 693b7cc54f747a6ff7c7b9a59ac986a9425f44a9
+  Realm: 2627602ad6818451f0cb8c2a6e072f7f10a5f360
+  RealmSwift: 4764ca7657f2193c256fb032c0b123926f70dbcd
+
+PODFILE CHECKSUM: eeddaaf88c6fff5ba988e73a4c3cf42fe71372ae
+
+COCOAPODS: 1.2.1

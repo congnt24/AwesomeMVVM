@@ -1,0 +1,28 @@
+{
+  "name": "AwesomeMVVM",
+  "version": "0.1.0",
+  "summary": "A swift framework contain many useful extensions and functions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/congnt24/AwesomeMVVM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "congnt24": "congnt24@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/congnt24/AwesomeMVVM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AwesomeMVVM/Classes/*.{swift}",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "RealmSwift": [
+
+    ]
+  }
+}

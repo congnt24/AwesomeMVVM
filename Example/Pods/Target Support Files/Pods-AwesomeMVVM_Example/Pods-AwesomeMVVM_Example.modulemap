@@ -1,0 +1,6 @@
+framework module Pods_AwesomeMVVM_Example {
+  umbrella header "Pods-AwesomeMVVM_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
