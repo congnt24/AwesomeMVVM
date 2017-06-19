@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A160A61EF7B67200EFFC7F /* Awesome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A160A51EF7B67200EFFC7F /* Awesome.storyboard */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B7DF2A32B8550A07D9747295 /* Pods_AwesomeMVVM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13718CB84D44E0B6C89455C /* Pods_AwesomeMVVM_Tests.framework */; };
-		BC9F7CEEA3625913C08BD7FB /* Pods_AwesomeMVVM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64C9F95C0AF4DD9AB9E310 /* Pods_AwesomeMVVM_Example.framework */; };
+		7CF5BEA018FDCEE421225793 /* Pods_AwesomeMVVM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA147F13B2CB03F37760E4B4 /* Pods_AwesomeMVVM_Tests.framework */; };
+		B150E8324CBE32FF26A74A30 /* Pods_AwesomeMVVM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0380C83ACBEFB3FC4B9DC3EE /* Pods_AwesomeMVVM_Example.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0380C83ACBEFB3FC4B9DC3EE /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A160A51EF7B67200EFFC7F /* Awesome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Awesome.storyboard; sourceTree = "<group>"; };
 		37C68CDC26906611788E741D /* Pods-AwesomeMVVM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeMVVM_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeMVVM_Example/Pods-AwesomeMVVM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3CFA0946C2FC983F2B80408B /* Pods-AwesomeMVVM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeMVVM_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeMVVM_Example/Pods-AwesomeMVVM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		453D70DDB850DAF839A2D647 /* Pods-AwesomeMVVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeMVVM_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -41,12 +44,11 @@
 		607FACE51AFB9204008FA782 /* AwesomeMVVM_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeMVVM_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76DBC49412DC3808C7DCA643 /* AwesomeMVVM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AwesomeMVVM.podspec; path = ../AwesomeMVVM.podspec; sourceTree = "<group>"; };
-		7E7F21EB9D743ED80D72272F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		76DBC49412DC3808C7DCA643 /* AwesomeMVVM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AwesomeMVVM.podspec; path = ../AwesomeMVVM.podspec; sourceTree = "<group>"; };
+		7E7F21EB9D743ED80D72272F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		91BA8C14C9389D78A9D379AB /* Pods-AwesomeMVVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeMVVM_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A13718CB84D44E0B6C89455C /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8679AD18FF65B04AE3B2C90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EA64C9F95C0AF4DD9AB9E310 /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA147F13B2CB03F37760E4B4 /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8679AD18FF65B04AE3B2C90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9F7CEEA3625913C08BD7FB /* Pods_AwesomeMVVM_Example.framework in Frameworks */,
+				B150E8324CBE32FF26A74A30 /* Pods_AwesomeMVVM_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7DF2A32B8550A07D9747295 /* Pods_AwesomeMVVM_Tests.framework in Frameworks */,
+				7CF5BEA018FDCEE421225793 /* Pods_AwesomeMVVM_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				18A160A51EF7B67200EFFC7F /* Awesome.storyboard */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -153,8 +156,8 @@
 		B42736140E4122AE700DA8CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA64C9F95C0AF4DD9AB9E310 /* Pods_AwesomeMVVM_Example.framework */,
-				A13718CB84D44E0B6C89455C /* Pods_AwesomeMVVM_Tests.framework */,
+				0380C83ACBEFB3FC4B9DC3EE /* Pods_AwesomeMVVM_Example.framework */,
+				DA147F13B2CB03F37760E4B4 /* Pods_AwesomeMVVM_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				18A160A61EF7B67200EFFC7F /* Awesome.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +500,15 @@
 			baseConfigurationReference = 3CFA0946C2FC983F2B80408B /* Pods-AwesomeMVVM_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/AwesomeMVVM",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleToolboxForMac",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AwesomeMVVM",
+				);
 				INFOPLIST_FILE = AwesomeMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +522,15 @@
 			baseConfigurationReference = 37C68CDC26906611788E741D /* Pods-AwesomeMVVM_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/AwesomeMVVM",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleToolboxForMac",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AwesomeMVVM",
+				);
 				INFOPLIST_FILE = AwesomeMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

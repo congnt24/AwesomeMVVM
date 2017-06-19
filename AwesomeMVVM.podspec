@@ -28,17 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/congnt24/AwesomeMVVM.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'AwesomeMVVM/Classes/**/*'
-  s.source_files = 'AwesomeMVVM/Classes/*.{swift}'
-
-  # s.resource_bundles = {
-  #   'AwesomeMVVM' => ['AwesomeMVVM/Assets/*.png']
-  # }
+  s.resources = 'AwesomeMVVM/Assets/*.xib'
+  s.resource_bundles = {
+    'AwesomeMVVM' => ['AwesomeMVVM/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+
   s.frameworks = 'Foundation'
-  s.dependency 'RealmSwift'
+
+#s.dependency 'RealmSwift'
 end

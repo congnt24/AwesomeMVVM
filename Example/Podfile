@@ -2,11 +2,18 @@ use_frameworks!
 
 target 'AwesomeMVVM_Example' do
   pod 'AwesomeMVVM', :path => '../'
-  pod 'RealmSwift'
-
   target 'AwesomeMVVM_Tests' do
     inherit! :search_paths
 
-    
+  end
+  
+  
+  post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          target.build_configurations.each do |config|
+              #config.build_settings['CONFIGURATION_BUILD_DIR'] = '$PODS_CONFIGURATION_BUILD_DIR'
+              config.build_settings['FRAMEWORK_SEARCH_PATHS'] = '$PODS_CONFIGURATION_BUILD_DIR/**'
+          end
+      end
   end
 end

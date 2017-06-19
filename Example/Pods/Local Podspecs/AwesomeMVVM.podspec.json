@@ -16,13 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "AwesomeMVVM/Classes/*.{swift}",
-  "frameworks": "Foundation",
-  "dependencies": {
-    "RealmSwift": [
-
+  "source_files": "AwesomeMVVM/Classes/**/*",
+  "resources": "AwesomeMVVM/Assets/*.xib",
+  "resource_bundles": {
+    "AwesomeMVVM": [
+      "AwesomeMVVM/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "Foundation"
 }
