@@ -19,11 +19,6 @@
     "ios": "9.3"
   },
   "source_files": "AwesomeMVVM/Classes/**/*",
-  "resources": "AwesomeMVVM/Assets/*.xib",
-  "resource_bundles": {
-    "AwesomeMVVM": [
-      "AwesomeMVVM/Assets/*.png"
-    ]
-  },
+  "resources": "AwesomeMVVM/Assets/*",
   "frameworks": "Foundation"
 }
