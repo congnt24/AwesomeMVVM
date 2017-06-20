@@ -217,8 +217,8 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftViewImage" value="textField:11c-x3-5ie:value"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="A0B900DF-86E0-4CA3-BFC0-FAC72D515408"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="A0B900DF-86E0-4CA3-BFC0-FAC72D515408"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="bottomLineWidth">
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
@@ -254,8 +254,8 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftViewImage" value="textField:11c-x3-5ie:value"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="A0B900DF-86E0-4CA3-BFC0-FAC72D515408"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="A0B900DF-86E0-4CA3-BFC0-FAC72D515408"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="bottomLineWidth">
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
@@ -343,11 +343,11 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXw-h1-MfO" customClass="RadioGroupCell" customModule="AwesomeMVVM">
                                         <rect key="frame" x="0.0" y="0.0" width="283" height="200"/>
-                                        <state key="normal" image="icons8-unchecked_checkbox">
+                                        <state key="normal" image="icon_unchecked">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="checkedImage" value="icons8-checked_checkbox"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="checkedImage" value="icon_checked"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
@@ -386,7 +386,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="NjD-g2-UUX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="2EK-jG-Vd1">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2EK-jG-Vd1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -401,7 +401,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="A0B900DF-86E0-4CA3-BFC0-FAC72D515408" width="33" height="33">
+        <image name="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02" width="33" height="33">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBMU
 GR4fJSYsLzU4VSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBz
@@ -420,8 +420,8 @@ sQGzAbgBwAHDAcgB0AHTAeUB6AHtAAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAe8
         <image name="Icon_username" width="22" height="22"/>
         <image name="Logo" width="112" height="120"/>
         <image name="background" width="375" height="667"/>
-        <image name="icons8-checked_checkbox" width="32" height="32"/>
-        <image name="icons8-unchecked_checkbox" width="32" height="32"/>
+        <image name="icon_checked" width="32" height="32"/>
+        <image name="icon_unchecked" width="32" height="32"/>
         <image name="textField:11c-x3-5ie:value" width="18" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU

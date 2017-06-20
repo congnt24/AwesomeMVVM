@@ -1,5 +1,5 @@
 PODS:
-  - AwesomeMVVM (0.1.0)
+  - AwesomeMVVM (0.1.1)
 
 DEPENDENCIES:
   - AwesomeMVVM (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeMVVM: cfad80e7e4b96da797d4fd57137e551bc51f9270
+  AwesomeMVVM: 41e4a084a878883c9c6a0e503a9c9da2f041fa0f
 
 PODFILE CHECKSUM: '0128ecc1094bf741128d4ccac15b3cc5646e259b'
 

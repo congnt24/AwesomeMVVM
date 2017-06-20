@@ -1,6 +1,6 @@
 {
   "name": "AwesomeMVVM",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A swift framework contain many useful extensions and functions.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/congnt24/AwesomeMVVM",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/congnt24/AwesomeMVVM.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.3"

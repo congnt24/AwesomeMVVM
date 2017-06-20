@@ -7,45 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CCCF9A9A6BC8A0CCAFBBD57C046BA27 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D03F26F81DCA6E8E0333CA613B0CA /* UITextFieldExtension.swift */; };
-		189C09271EF8B88F00FAD050 /* UISliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C09261EF8B88F00FAD050 /* UISliderExtension.swift */; };
-		189C09291EF8B8FE00FAD050 /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C09281EF8B8FE00FAD050 /* UISearchBarExtension.swift */; };
-		189C092B1EF8B96E00FAD050 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C092A1EF8B96E00FAD050 /* UIImageViewExtension.swift */; };
-		189C092D1EF8BA0500FAD050 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C092C1EF8BA0500FAD050 /* UIColorExtension.swift */; };
-		189C092F1EF8BEA500FAD050 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C092E1EF8BEA500FAD050 /* UITableViewExtension.swift */; };
-		189C09311EF8BF0300FAD050 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C09301EF8BF0300FAD050 /* UICollectionViewExtension.swift */; };
-		189C09331EF8BFCC00FAD050 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C09321EF8BFCC00FAD050 /* CGSizeExtension.swift */; };
-		189C09351EF8C0DD00FAD050 /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C09341EF8C0DD00FAD050 /* AppExtension.swift */; };
-		1FFE331B8477A43ABE7A1FCBB53F2158 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D70D0AC0C3ED014AB7E6255F1666EA8 /* UIViewExtension.swift */; };
-		2444F2FD9CF8485601E0D94829D1B1DF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EB04DD56E94E9AFB33F35F69BD1F7 /* StringExtension.swift */; };
-		3737CED0F74759E020F723A6B1C4F26C /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6230C7FE8E5534F03F47A66D4791F426 /* LoadMoreTableViewCell.swift */; };
+		05665C1D6CDBDE4307985160E716EB2A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D9F12B3EB4DBD7BED95DD5C906722 /* ViewControllerExtension.swift */; };
+		08CA2F5DE6380DAAC6D1E16B0721EB03 /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5277D9ECEAC0F091269E1B9518E6C9 /* LoadMoreTableViewCell.swift */; };
+		0D16E45624B5AD16444171DFD7C16B4D /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15936B03831843BA605F2D2D022CD06 /* AppExtension.swift */; };
+		182B58DF03670E6ABDE8EDCCFA9FABC9 /* AwesomeMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE252432EB7DD34D55AFA7D70AD306CE /* AwesomeMVVM-dummy.m */; };
+		1CFE6E28DA829B1973A71D0338910A6F /* CheckedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85D4DCF3EA8BEA49FDF2FCC281C2121 /* CheckedButton.swift */; };
+		23FDE9C860DB15B49B71AF561031DDC9 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1CE060D739FD84A0D248DCE6DF4714 /* RadioGroup.swift */; };
+		2A7019CB741ADC0FB5AF27044E87BBED /* LoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76757C533C7FC1C736BD342F486682AE /* LoadMoreTableViewCell.xib */; };
+		2D46F14336A78F7543287C36A574C33B /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C4EDA45C53B7F02B1D5A1933B6CEAF /* UITextViewExtension.swift */; };
+		2F21569C558821E053B3BE5BA48782B8 /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BCC760A60C56DF6923EB21FB6C372 /* LanguageHelper.swift */; };
 		3B700A334548EFF78C7067F21E18546D /* Pods-AwesomeMVVM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6201F672C88C5DDB0B64B943C2F044 /* Pods-AwesomeMVVM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FEC4083E3E6583B14B50438CB4FCBAA /* AwesomeMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE252432EB7DD34D55AFA7D70AD306CE /* AwesomeMVVM-dummy.m */; };
-		46CD7C456C0D8212FC9563406422D3C9 /* CheckedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB181F1C7E74D14F1D99BF7CEB70FF8 /* CheckedButton.swift */; };
+		3FAC8633E8A8AA1FE542C1BE33147F93 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31522EBF4553F6411C75DD9771226D87 /* StringExtension.swift */; };
+		43EAE7E68EC89B3E8F5632BAB7FC63BA /* AwesomeMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A109B2FA83253060BD44A1E7025BFF /* AwesomeMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B3BC1ED636C5792130F6875DECD252 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042021C0BB98C04A75A7B46DCE1233A /* UICollectionViewExtension.swift */; };
 		47C6777F49A5513EF81E360BBBDBE457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A5F58DA2E6FDD36F7857E2A4A9422E2 /* AwesomeMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A109B2FA83253060BD44A1E7025BFF /* AwesomeMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5248980163A02BC0C2AB165E2E6FB836 /* UserDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52165F5D54BA17142FDD96EB256F41D9 /* UserDefaultHandler.swift */; };
+		5B4D098EC106B16C0F32A94F67AD625C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762764EE9C23FA87753F008FC635F209 /* UIViewExtension.swift */; };
+		5C9B0C89EA0F804AAFA8EADA1D86EDBC /* RadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F14525364067C4A99D04ABBD38F23 /* RadioGroupCell.swift */; };
 		601F967A2026281B5A6B34F1884F179D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		64647EFE9097C03719B60151A73E248D /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E43786892017D057E9D3309362EFCE /* UINavigationExtension.swift */; };
-		80B5CCE5F1E359A080C616A62B8ED6F1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280FAB844E395BFD6670E4051A5E600 /* BaseViewController.swift */; };
-		836B00ABCB1AFBC1A3EF324373BA8CA7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CADF2C29C5131E2129E05AE6C99263 /* Repository.swift */; };
-		83F7E861E8DD5CC04D046E773C798FB4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0FE4ACE328F81325E82F01731F12D /* UIViewControllerExtension.swift */; };
-		83FCC239E1688BDBDDEEA80F5548E9F1 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD832843124D411FA6237C13494F7C8 /* ViewControllerExtension.swift */; };
-		8E73A3569E7A59A04FB53610E5720669 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E80A2A1C2E2A24DE520DE56045D1C /* UITextViewExtension.swift */; };
-		A11A7B147D3AEB93B9709CC345387E0B /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4BC73C7DC18BC21EE5B0F40A0BA1EF /* RadioGroup.swift */; };
-		A6040868511B40ABD254F2597C54D86A /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CFF75AE105A82C9DB5DB8223196D5 /* LanguageHelper.swift */; };
-		A666AD5C091FFC34190D398AAE375076 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5DFE4FBE0BB529EC74CB76A051E4 /* FirebaseHelper.swift */; };
+		62E1DC0184833312E855DF4D6EB17912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7134D59211A92727432F5166814DEA46 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3927545BDFF2EF11557C60347377AE /* UIColorExtension.swift */; };
+		71B9C4BC4ACE26C2A8023E3C189CBA0F /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D9888570DEF06724BA23BBA78CD11 /* UITableViewExtension.swift */; };
+		7D426AB077C0C99848297FB864CB298D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FCFC0930E80CEE108D74F61F5BA641 /* Coordinator.swift */; };
+		91DADE171C65791A12B4A1D19F1FE32A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4E608E221F5D6A483E6E1799AB6DE /* Images.xcassets */; };
+		93E65A5FDDE79C7D5D115A8B4E0C058F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449548D317CD6ACDC6C8B67ED34E6F7A /* BaseViewController.swift */; };
+		947D6D4452BC67FD695DC2801B162D8F /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C059A6CE77EB7EC5F7890C1DD75D9106 /* FirebaseHelper.swift */; };
+		9B893AAC99BFAA8BDDBF183E76E2F2DB /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05923A7ECAD0DD1FEF709AFB36A9CD /* UISearchBarExtension.swift */; };
+		9CB62A8310B1D3BD7FA648A19B28CF78 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB79A82878ACCFCC2BD2BAB3D0DC9D /* Repository.swift */; };
 		A9F035FDCB37B21BAA8467730A243B90 /* Pods-AwesomeMVVM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B925A27B3A5433A43600817C35B6220 /* Pods-AwesomeMVVM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1FECCFCD12644F61CAA0BB57B239AE3 /* Pods-AwesomeMVVM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC02F14D2EC4BDAECEED3551423AC01 /* Pods-AwesomeMVVM_Example-dummy.m */; };
-		BD7642B224C330147315CEEE77DD4C55 /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBBD2AF0494A18500F8C0D2FAA0F00 /* AwesomeTextField.swift */; };
-		C633016A16E00D9B90925A415BEE4CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D241142D1F331DE8DADAA93B04802223 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11D2D9B6BF352651B16309F279BBAE /* Coordinator.swift */; };
-		D51BBB4BB0B82A5EA402314F056DCF47 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C35A38EFD6D524842EA34BF0F86C8 /* AppConstant.swift */; };
-		DB91CBAF5B4739B449899FE9FC34D35B /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953908769D0DE24250B9FF99C132655E /* UIStoryboardExtension.swift */; };
-		E303A3F966523A8B7491114C2A7ACB2D /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53373A73C9D4BE4E9EFCEF33CC31E55 /* UserDefaultsExtension.swift */; };
+		C3FB7DA340C188BF01182295F6B3AABC /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C92F0DB17C7DDEDB33F9F219906AC8 /* UINavigationExtension.swift */; };
+		C9D1D2110C0356E58EA4BDA2EA3A6B15 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C0E05FD52F68BEED6A6E9A14EEB76 /* UserDefaultsExtension.swift */; };
+		D11994B50C026CD9C3EDEAAF1A63D4A3 /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA439119D342DD9171ED28A22D91E0 /* AwesomeTextField.swift */; };
+		D604DB11EC04DFC6070D39161FF1B6B1 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34EFF8D3722D1651BDD35A3E27B13B /* CGSizeExtension.swift */; };
+		E0B41730A2F37C49DC90C9B8581BD3F2 /* UISliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FDF46D750D57C6F6F44FC2E4476914 /* UISliderExtension.swift */; };
 		E4C0EE056D2CFB63EA36CCB41A19C4B8 /* Pods-AwesomeMVVM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF76C4BE252E707341F7AD10D2DD0 /* Pods-AwesomeMVVM_Tests-dummy.m */; };
-		F2E53C14BBBA0A886480CE498E51C1ED /* LoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA4A170DAE794B34EDC9A970A95C2C9 /* LoadMoreTableViewCell.xib */; };
-		F658B1F51E15C346419E49D551ED841F /* RadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCE3DDCA45477CBE569CCDFD7879550 /* RadioGroupCell.swift */; };
+		E8BD6C57EAC6153E74C06DDFAA126DBE /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE381BD35BB0087C2BF2736F5CBF7BBF /* UIStoryboardExtension.swift */; };
+		E9ED8703ADF83BE4C91A251C4F68636F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D6BF28608E4C92F0EC8B717A0FD55 /* UIImageViewExtension.swift */; };
+		EEA464746716ECFAD610C963D2379C71 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270C85D43C2F656A49BADED942CB088 /* UITextFieldExtension.swift */; };
+		F08DEEB9EE4678440C61DB62E70DF831 /* UserDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6898F4ED8F0525662E2E8C081474A3 /* UserDefaultHandler.swift */; };
+		F69E7E1E153FB7C830F39466EB833047 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7806855BDB15865BE3A94F8D507109D4 /* AppConstant.swift */; };
+		F7A3DC2A0D7728CF54FC281BB31ECF75 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90117ED18070992F2BB79CA9EF65AC3C /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,81 +54,82 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61A0D18A3EE59858D0A91E22B070569A;
+			remoteGlobalIDString = 56049640C07D982BFCE14682675F54D6;
 			remoteInfo = AwesomeMVVM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06BB045BF1FCE5EFB13B554D547A5387 /* Pods-AwesomeMVVM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Tests-resources.sh"; sourceTree = "<group>"; };
-		0C4EB04DD56E94E9AFB33F35F69BD1F7 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		0B5F14525364067C4A99D04ABBD38F23 /* RadioGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
+		0CBA439119D342DD9171ED28A22D91E0 /* AwesomeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
 		0D6201F672C88C5DDB0B64B943C2F044 /* Pods-AwesomeMVVM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeMVVM_Tests-umbrella.h"; sourceTree = "<group>"; };
-		189C09261EF8B88F00FAD050 /* UISliderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderExtension.swift; sourceTree = "<group>"; };
-		189C09281EF8B8FE00FAD050 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
-		189C092A1EF8B96E00FAD050 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		189C092C1EF8BA0500FAD050 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		189C092E1EF8BEA500FAD050 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		189C09301EF8BF0300FAD050 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
-		189C09321EF8BFCC00FAD050 /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
-		189C09341EF8C0DD00FAD050 /* AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
-		3E11D2D9B6BF352651B16309F279BBAE /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0D6898F4ED8F0525662E2E8C081474A3 /* UserDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultHandler.swift; sourceTree = "<group>"; };
+		1ED4E608E221F5D6A483E6E1799AB6DE /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D34EFF8D3722D1651BDD35A3E27B13B /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		2E5D9F12B3EB4DBD7BED95DD5C906722 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		31522EBF4553F6411C75DD9771226D87 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		318D9888570DEF06724BA23BBA78CD11 /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		41F58909EE78F9A18B78F0F546070350 /* AwesomeMVVM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeMVVM.xcconfig; sourceTree = "<group>"; };
+		449548D317CD6ACDC6C8B67ED34E6F7A /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		467C0B3C2ADE1C0B6EECBC1160B2A443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B64A8A0D353080C6B057B44354D2AB3 /* Pods-AwesomeMVVM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4BB181F1C7E74D14F1D99BF7CEB70FF8 /* CheckedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckedButton.swift; sourceTree = "<group>"; };
-		52165F5D54BA17142FDD96EB256F41D9 /* UserDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultHandler.swift; sourceTree = "<group>"; };
-		54A0FE4ACE328F81325E82F01731F12D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		4C3927545BDFF2EF11557C60347377AE /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		57C4EDA45C53B7F02B1D5A1933B6CEAF /* UITextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		57F8734C489F6D51C06858428CD60D80 /* Pods-AwesomeMVVM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeMVVM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5929C5B09176E797E2081673C06F2E39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D70D0AC0C3ED014AB7E6255F1666EA8 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		6230C7FE8E5534F03F47A66D4791F426 /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
-		63DBBD2AF0494A18500F8C0D2FAA0F00 /* AwesomeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67C0E0B1B36B95F262DEB3D2EF629B97 /* Pods-AwesomeMVVM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6DD832843124D411FA6237C13494F7C8 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
-		734DE1D44CFC457ACC7FDE1878674DB3 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
+		6EBB79A82878ACCFCC2BD2BAB3D0DC9D /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		734DE1D44CFC457ACC7FDE1878674DB3 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
+		762764EE9C23FA87753F008FC635F209 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		76757C533C7FC1C736BD342F486682AE /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
+		7806855BDB15865BE3A94F8D507109D4 /* AppConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		7B925A27B3A5433A43600817C35B6220 /* Pods-AwesomeMVVM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeMVVM_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F4BC73C7DC18BC21EE5B0F40A0BA1EF /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
-		824C35A38EFD6D524842EA34BF0F86C8 /* AppConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		81FDF46D750D57C6F6F44FC2E4476914 /* UISliderExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISliderExtension.swift; sourceTree = "<group>"; };
+		8270C85D43C2F656A49BADED942CB088 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		85655C2492C096FBAE674A6C7F056EF3 /* Pods-AwesomeMVVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85FCFC0930E80CEE108D74F61F5BA641 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		897C063A227B687DC6C3D0F0DD6D8783 /* Pods-AwesomeMVVM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeMVVM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A811CED1E65F8683D9B0EC61D75503B /* Pods-AwesomeMVVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BFFF76C4BE252E707341F7AD10D2DD0 /* Pods-AwesomeMVVM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Tests-dummy.m"; sourceTree = "<group>"; };
-		8C1CFF75AE105A82C9DB5DB8223196D5 /* LanguageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		953908769D0DE24250B9FF99C132655E /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		90117ED18070992F2BB79CA9EF65AC3C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C544E6F5C81DD2DFDD8B52FED80D7E0 /* Pods-AwesomeMVVM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeMVVM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFCE3DDCA45477CBE569CCDFD7879550 /* RadioGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
+		9D1CE060D739FD84A0D248DCE6DF4714 /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
+		AE381BD35BB0087C2BF2736F5CBF7BBF /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		B7AA6FE8DC1F20A333881D3EA338824C /* AwesomeMVVM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-prefix.pch"; sourceTree = "<group>"; };
-		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
-		B8E43786892017D057E9D3309362EFCE /* UINavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
+		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
+		BA05923A7ECAD0DD1FEF709AFB36A9CD /* UISearchBarExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		BB635589E35272306AD887771D2FCA97 /* Pods-AwesomeMVVM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD4B5DFE4FBE0BB529EC74CB76A051E4 /* FirebaseHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		BE7D6BF28608E4C92F0EC8B717A0FD55 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		BEC02F14D2EC4BDAECEED3551423AC01 /* Pods-AwesomeMVVM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Example-dummy.m"; sourceTree = "<group>"; };
-		BFE0A2697F8D9BC16AE6FA028F36E3A9 /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C280FAB844E395BFD6670E4051A5E600 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		C42E80A2A1C2E2A24DE520DE56045D1C /* UITextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		BF2BCC760A60C56DF6923EB21FB6C372 /* LanguageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		BFE0A2697F8D9BC16AE6FA028F36E3A9 /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Tests.framework; path = "Pods-AwesomeMVVM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C042021C0BB98C04A75A7B46DCE1233A /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		C059A6CE77EB7EC5F7890C1DD75D9106 /* FirebaseHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
 		C51D7CE7C81737E869016E8854902993 /* Pods-AwesomeMVVM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeMVVM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB5277D9ECEAC0F091269E1B9518E6C9 /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
 		CB7A93C49CD6D74060FE867B903C6920 /* Pods-AwesomeMVVM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CE6D03F26F81DCA6E8E0333CA613B0CA /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		D15936B03831843BA605F2D2D022CD06 /* AppExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
 		D37BB50F0D1DD04A9E19ACDF5532CEFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99A5ACF6586C1A7003C99F9CD3A512B /* Pods-AwesomeMVVM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Example-resources.sh"; sourceTree = "<group>"; };
-		E1C10EFA6EA0A7A95A3B272DFFDA972B /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
-		E53373A73C9D4BE4E9EFCEF33CC31E55 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
-		E9CADF2C29C5131E2129E05AE6C99263 /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		EBA4A170DAE794B34EDC9A970A95C2C9 /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
+		E1C10EFA6EA0A7A95A3B272DFFDA972B /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Example.framework; path = "Pods-AwesomeMVVM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
+		E85D4DCF3EA8BEA49FDF2FCC281C2121 /* CheckedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckedButton.swift; sourceTree = "<group>"; };
+		EA9C0E05FD52F68BEED6A6E9A14EEB76 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 		EE252432EB7DD34D55AFA7D70AD306CE /* AwesomeMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeMVVM-dummy.m"; sourceTree = "<group>"; };
+		F3C92F0DB17C7DDEDB33F9F219906AC8 /* UINavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 		F5A109B2FA83253060BD44A1E7025BFF /* AwesomeMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-umbrella.h"; sourceTree = "<group>"; };
-		F5F7F933F8F5775CA0126D58D05AB224 /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F7F933F8F5775CA0126D58D05AB224 /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeMVVM.framework; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30751F273433D6947E3C9A1E7B4BE359 /* Frameworks */ = {
+		2FED18C9311BBD585DF9384C9E7D4912 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C633016A16E00D9B90925A415BEE4CAA /* Foundation.framework in Frameworks */,
+				62E1DC0184833312E855DF4D6EB17912 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,46 +162,68 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D8F44AF5581425FD89BDDB604D48290 /* Classes */ = {
+		1263BF35A8452FF6E071448848CC8DDA /* Handler */ = {
 			isa = PBXGroup;
 			children = (
-				40B3AE07EE02AFAF76C4C82DEB534168 /* Base */,
-				67270C74403A1E54A83310AD2B97D1CD /* CustomView */,
-				CE1AF54A2236914EDF7D34A46ACF0E33 /* Extension */,
-				6C650057FA61C2C36EFA1A735CB5B02F /* Handler */,
+				C059A6CE77EB7EC5F7890C1DD75D9106 /* FirebaseHelper.swift */,
+				BF2BCC760A60C56DF6923EB21FB6C372 /* LanguageHelper.swift */,
+				0D6898F4ED8F0525662E2E8C081474A3 /* UserDefaultHandler.swift */,
 			);
-			path = Classes;
+			name = Handler;
+			path = Handler;
 			sourceTree = "<group>";
 		};
-		40B3AE07EE02AFAF76C4C82DEB534168 /* Base */ = {
+		1912894E2DE271F04C470B62E2E2F594 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				824C35A38EFD6D524842EA34BF0F86C8 /* AppConstant.swift */,
-				C280FAB844E395BFD6670E4051A5E600 /* BaseViewController.swift */,
-				3E11D2D9B6BF352651B16309F279BBAE /* Coordinator.swift */,
-				E9CADF2C29C5131E2129E05AE6C99263 /* Repository.swift */,
+				1ED4E608E221F5D6A483E6E1799AB6DE /* Images.xcassets */,
+				76757C533C7FC1C736BD342F486682AE /* LoadMoreTableViewCell.xib */,
 			);
-			path = Base;
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		411C86B271CEBD5CBF167DBF0EB22CDE /* AwesomeMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				2D8F44AF5581425FD89BDDB604D48290 /* Classes */,
+				79E4F9C4C101DA5FA5468EEC45FD0042 /* Classes */,
 			);
+			name = AwesomeMVVM;
 			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
-		67270C74403A1E54A83310AD2B97D1CD /* CustomView */ = {
+		56EBA28583E4296E21E49C93B320B8CA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				63DBBD2AF0494A18500F8C0D2FAA0F00 /* AwesomeTextField.swift */,
-				4BB181F1C7E74D14F1D99BF7CEB70FF8 /* CheckedButton.swift */,
-				6230C7FE8E5534F03F47A66D4791F426 /* LoadMoreTableViewCell.swift */,
-				7F4BC73C7DC18BC21EE5B0F40A0BA1EF /* RadioGroup.swift */,
-				AFCE3DDCA45477CBE569CCDFD7879550 /* RadioGroupCell.swift */,
+				D15936B03831843BA605F2D2D022CD06 /* AppExtension.swift */,
+				2D34EFF8D3722D1651BDD35A3E27B13B /* CGSizeExtension.swift */,
+				31522EBF4553F6411C75DD9771226D87 /* StringExtension.swift */,
+				C042021C0BB98C04A75A7B46DCE1233A /* UICollectionViewExtension.swift */,
+				4C3927545BDFF2EF11557C60347377AE /* UIColorExtension.swift */,
+				BE7D6BF28608E4C92F0EC8B717A0FD55 /* UIImageViewExtension.swift */,
+				F3C92F0DB17C7DDEDB33F9F219906AC8 /* UINavigationExtension.swift */,
+				BA05923A7ECAD0DD1FEF709AFB36A9CD /* UISearchBarExtension.swift */,
+				81FDF46D750D57C6F6F44FC2E4476914 /* UISliderExtension.swift */,
+				AE381BD35BB0087C2BF2736F5CBF7BBF /* UIStoryboardExtension.swift */,
+				318D9888570DEF06724BA23BBA78CD11 /* UITableViewExtension.swift */,
+				8270C85D43C2F656A49BADED942CB088 /* UITextFieldExtension.swift */,
+				57C4EDA45C53B7F02B1D5A1933B6CEAF /* UITextViewExtension.swift */,
+				90117ED18070992F2BB79CA9EF65AC3C /* UIViewControllerExtension.swift */,
+				762764EE9C23FA87753F008FC635F209 /* UIViewExtension.swift */,
+				EA9C0E05FD52F68BEED6A6E9A14EEB76 /* UserDefaultsExtension.swift */,
+				2E5D9F12B3EB4DBD7BED95DD5C906722 /* ViewControllerExtension.swift */,
 			);
-			path = CustomView;
+			name = Extension;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5986F406521A76E1D3D45F6D2EF04476 /* AwesomeMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				1912894E2DE271F04C470B62E2E2F594 /* Assets */,
+			);
+			name = AwesomeMVVM;
+			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
 		6B7841D671305784D7A39860393CA27B /* Support Files */ = {
@@ -214,16 +238,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AwesomeMVVM";
-			sourceTree = "<group>";
-		};
-		6C650057FA61C2C36EFA1A735CB5B02F /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-				BD4B5DFE4FBE0BB529EC74CB76A051E4 /* FirebaseHelper.swift */,
-				8C1CFF75AE105A82C9DB5DB8223196D5 /* LanguageHelper.swift */,
-				52165F5D54BA17142FDD96EB256F41D9 /* UserDefaultHandler.swift */,
-			);
-			path = Handler;
 			sourceTree = "<group>";
 		};
 		6F420E75EC2DC8EF83C88336DB077697 /* Pods-AwesomeMVVM_Tests */ = {
@@ -244,6 +258,31 @@
 			path = "Target Support Files/Pods-AwesomeMVVM_Tests";
 			sourceTree = "<group>";
 		};
+		78F13FD5AB8E76EAA0A8848A718DB26C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA439119D342DD9171ED28A22D91E0 /* AwesomeTextField.swift */,
+				E85D4DCF3EA8BEA49FDF2FCC281C2121 /* CheckedButton.swift */,
+				CB5277D9ECEAC0F091269E1B9518E6C9 /* LoadMoreTableViewCell.swift */,
+				9D1CE060D739FD84A0D248DCE6DF4714 /* RadioGroup.swift */,
+				0B5F14525364067C4A99D04ABBD38F23 /* RadioGroupCell.swift */,
+			);
+			name = CustomView;
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		79E4F9C4C101DA5FA5468EEC45FD0042 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				927B8B6811FD1530EAA8A576137D58CB /* Base */,
+				78F13FD5AB8E76EAA0A8848A718DB26C /* CustomView */,
+				56EBA28583E4296E21E49C93B320B8CA /* Extension */,
+				1263BF35A8452FF6E071448848CC8DDA /* Handler */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -253,14 +292,6 @@
 				0053C200656E3F076A14D0BC42810096 /* Products */,
 				9E3F61F39C80D274BF10C712ADE98DF9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E4052431B5832FBEC080AAD0280754F /* AwesomeMVVM */ = {
-			isa = PBXGroup;
-			children = (
-				CFBE8F87C21E59A6693A4EF6B09EA658 /* Assets */,
-			);
-			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
 		909689AAF868A19516835990998CD0CF /* Pods-AwesomeMVVM_Example */ = {
@@ -279,6 +310,18 @@
 			);
 			name = "Pods-AwesomeMVVM_Example";
 			path = "Target Support Files/Pods-AwesomeMVVM_Example";
+			sourceTree = "<group>";
+		};
+		927B8B6811FD1530EAA8A576137D58CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7806855BDB15865BE3A94F8D507109D4 /* AppConstant.swift */,
+				449548D317CD6ACDC6C8B67ED34E6F7A /* BaseViewController.swift */,
+				85FCFC0930E80CEE108D74F61F5BA641 /* Coordinator.swift */,
+				6EBB79A82878ACCFCC2BD2BAB3D0DC9D /* Repository.swift */,
+			);
+			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		9E3F61F39C80D274BF10C712ADE98DF9 /* Targets Support Files */ = {
@@ -304,7 +347,7 @@
 		B179F82B74EBBCB824FB586EF768E37A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7E4052431B5832FBEC080AAD0280754F /* AwesomeMVVM */,
+				5986F406521A76E1D3D45F6D2EF04476 /* AwesomeMVVM */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -323,38 +366,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE1AF54A2236914EDF7D34A46ACF0E33 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				0C4EB04DD56E94E9AFB33F35F69BD1F7 /* StringExtension.swift */,
-				B8E43786892017D057E9D3309362EFCE /* UINavigationExtension.swift */,
-				953908769D0DE24250B9FF99C132655E /* UIStoryboardExtension.swift */,
-				CE6D03F26F81DCA6E8E0333CA613B0CA /* UITextFieldExtension.swift */,
-				C42E80A2A1C2E2A24DE520DE56045D1C /* UITextViewExtension.swift */,
-				54A0FE4ACE328F81325E82F01731F12D /* UIViewControllerExtension.swift */,
-				5D70D0AC0C3ED014AB7E6255F1666EA8 /* UIViewExtension.swift */,
-				E53373A73C9D4BE4E9EFCEF33CC31E55 /* UserDefaultsExtension.swift */,
-				6DD832843124D411FA6237C13494F7C8 /* ViewControllerExtension.swift */,
-				189C09261EF8B88F00FAD050 /* UISliderExtension.swift */,
-				189C09281EF8B8FE00FAD050 /* UISearchBarExtension.swift */,
-				189C092A1EF8B96E00FAD050 /* UIImageViewExtension.swift */,
-				189C092C1EF8BA0500FAD050 /* UIColorExtension.swift */,
-				189C092E1EF8BEA500FAD050 /* UITableViewExtension.swift */,
-				189C09301EF8BF0300FAD050 /* UICollectionViewExtension.swift */,
-				189C09321EF8BFCC00FAD050 /* CGSizeExtension.swift */,
-				189C09341EF8C0DD00FAD050 /* AppExtension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		CFBE8F87C21E59A6693A4EF6B09EA658 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				EBA4A170DAE794B34EDC9A970A95C2C9 /* LoadMoreTableViewCell.xib */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -376,11 +387,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4552FB7D041B264ED189232DC43834B7 /* Headers */ = {
+		5CD9C995D1208BB617ECA3DD71C658C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5F58DA2E6FDD36F7857E2A4A9422E2 /* AwesomeMVVM-umbrella.h in Headers */,
+				43EAE7E68EC89B3E8F5632BAB7FC63BA /* AwesomeMVVM-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,14 +406,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		61A0D18A3EE59858D0A91E22B070569A /* AwesomeMVVM */ = {
+		56049640C07D982BFCE14682675F54D6 /* AwesomeMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AFDA3A8C7A4FC60C3B38CCF3A22267D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */;
+			buildConfigurationList = EC45EDBA2ED4A4DE221D77F292B7C398 /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */;
 			buildPhases = (
-				3EA4AB3D7C86268EC7AA63D145111338 /* Sources */,
-				30751F273433D6947E3C9A1E7B4BE359 /* Frameworks */,
-				E1935EB6A22FF3818574795A34A0C90F /* Resources */,
-				4552FB7D041B264ED189232DC43834B7 /* Headers */,
+				A5D7F703A9729A5776FE2687DC396744 /* Sources */,
+				2FED18C9311BBD585DF9384C9E7D4912 /* Frameworks */,
+				31685F8E0142F575615766F750495B40 /* Resources */,
+				5CD9C995D1208BB617ECA3DD71C658C5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -469,7 +480,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61A0D18A3EE59858D0A91E22B070569A /* AwesomeMVVM */,
+				56049640C07D982BFCE14682675F54D6 /* AwesomeMVVM */,
 				677A2DEC047CDA68315B6F0628AF8E81 /* Pods-AwesomeMVVM_Example */,
 				79687708ACE727D4563DE97FC8953B78 /* Pods-AwesomeMVVM_Tests */,
 			);
@@ -477,11 +488,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E1935EB6A22FF3818574795A34A0C90F /* Resources */ = {
+		31685F8E0142F575615766F750495B40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E53C14BBBA0A886480CE498E51C1ED /* LoadMoreTableViewCell.xib in Resources */,
+				91DADE171C65791A12B4A1D19F1FE32A /* Images.xcassets in Resources */,
+				2A7019CB741ADC0FB5AF27044E87BBED /* LoadMoreTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,40 +508,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EA4AB3D7C86268EC7AA63D145111338 /* Sources */ = {
+		A5D7F703A9729A5776FE2687DC396744 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189C092B1EF8B96E00FAD050 /* UIImageViewExtension.swift in Sources */,
-				D51BBB4BB0B82A5EA402314F056DCF47 /* AppConstant.swift in Sources */,
-				3FEC4083E3E6583B14B50438CB4FCBAA /* AwesomeMVVM-dummy.m in Sources */,
-				189C09351EF8C0DD00FAD050 /* AppExtension.swift in Sources */,
-				BD7642B224C330147315CEEE77DD4C55 /* AwesomeTextField.swift in Sources */,
-				80B5CCE5F1E359A080C616A62B8ED6F1 /* BaseViewController.swift in Sources */,
-				46CD7C456C0D8212FC9563406422D3C9 /* CheckedButton.swift in Sources */,
-				189C092F1EF8BEA500FAD050 /* UITableViewExtension.swift in Sources */,
-				189C09331EF8BFCC00FAD050 /* CGSizeExtension.swift in Sources */,
-				D241142D1F331DE8DADAA93B04802223 /* Coordinator.swift in Sources */,
-				A666AD5C091FFC34190D398AAE375076 /* FirebaseHelper.swift in Sources */,
-				A6040868511B40ABD254F2597C54D86A /* LanguageHelper.swift in Sources */,
-				3737CED0F74759E020F723A6B1C4F26C /* LoadMoreTableViewCell.swift in Sources */,
-				A11A7B147D3AEB93B9709CC345387E0B /* RadioGroup.swift in Sources */,
-				F658B1F51E15C346419E49D551ED841F /* RadioGroupCell.swift in Sources */,
-				836B00ABCB1AFBC1A3EF324373BA8CA7 /* Repository.swift in Sources */,
-				2444F2FD9CF8485601E0D94829D1B1DF /* StringExtension.swift in Sources */,
-				64647EFE9097C03719B60151A73E248D /* UINavigationExtension.swift in Sources */,
-				189C09311EF8BF0300FAD050 /* UICollectionViewExtension.swift in Sources */,
-				189C09271EF8B88F00FAD050 /* UISliderExtension.swift in Sources */,
-				DB91CBAF5B4739B449899FE9FC34D35B /* UIStoryboardExtension.swift in Sources */,
-				0CCCF9A9A6BC8A0CCAFBBD57C046BA27 /* UITextFieldExtension.swift in Sources */,
-				8E73A3569E7A59A04FB53610E5720669 /* UITextViewExtension.swift in Sources */,
-				189C092D1EF8BA0500FAD050 /* UIColorExtension.swift in Sources */,
-				83F7E861E8DD5CC04D046E773C798FB4 /* UIViewControllerExtension.swift in Sources */,
-				189C09291EF8B8FE00FAD050 /* UISearchBarExtension.swift in Sources */,
-				1FFE331B8477A43ABE7A1FCBB53F2158 /* UIViewExtension.swift in Sources */,
-				5248980163A02BC0C2AB165E2E6FB836 /* UserDefaultHandler.swift in Sources */,
-				E303A3F966523A8B7491114C2A7ACB2D /* UserDefaultsExtension.swift in Sources */,
-				83FCC239E1688BDBDDEEA80F5548E9F1 /* ViewControllerExtension.swift in Sources */,
+				F69E7E1E153FB7C830F39466EB833047 /* AppConstant.swift in Sources */,
+				0D16E45624B5AD16444171DFD7C16B4D /* AppExtension.swift in Sources */,
+				182B58DF03670E6ABDE8EDCCFA9FABC9 /* AwesomeMVVM-dummy.m in Sources */,
+				D11994B50C026CD9C3EDEAAF1A63D4A3 /* AwesomeTextField.swift in Sources */,
+				93E65A5FDDE79C7D5D115A8B4E0C058F /* BaseViewController.swift in Sources */,
+				D604DB11EC04DFC6070D39161FF1B6B1 /* CGSizeExtension.swift in Sources */,
+				1CFE6E28DA829B1973A71D0338910A6F /* CheckedButton.swift in Sources */,
+				7D426AB077C0C99848297FB864CB298D /* Coordinator.swift in Sources */,
+				947D6D4452BC67FD695DC2801B162D8F /* FirebaseHelper.swift in Sources */,
+				2F21569C558821E053B3BE5BA48782B8 /* LanguageHelper.swift in Sources */,
+				08CA2F5DE6380DAAC6D1E16B0721EB03 /* LoadMoreTableViewCell.swift in Sources */,
+				23FDE9C860DB15B49B71AF561031DDC9 /* RadioGroup.swift in Sources */,
+				5C9B0C89EA0F804AAFA8EADA1D86EDBC /* RadioGroupCell.swift in Sources */,
+				9CB62A8310B1D3BD7FA648A19B28CF78 /* Repository.swift in Sources */,
+				3FAC8633E8A8AA1FE542C1BE33147F93 /* StringExtension.swift in Sources */,
+				45B3BC1ED636C5792130F6875DECD252 /* UICollectionViewExtension.swift in Sources */,
+				7134D59211A92727432F5166814DEA46 /* UIColorExtension.swift in Sources */,
+				E9ED8703ADF83BE4C91A251C4F68636F /* UIImageViewExtension.swift in Sources */,
+				C3FB7DA340C188BF01182295F6B3AABC /* UINavigationExtension.swift in Sources */,
+				9B893AAC99BFAA8BDDBF183E76E2F2DB /* UISearchBarExtension.swift in Sources */,
+				E0B41730A2F37C49DC90C9B8581BD3F2 /* UISliderExtension.swift in Sources */,
+				E8BD6C57EAC6153E74C06DDFAA126DBE /* UIStoryboardExtension.swift in Sources */,
+				71B9C4BC4ACE26C2A8023E3C189CBA0F /* UITableViewExtension.swift in Sources */,
+				EEA464746716ECFAD610C963D2379C71 /* UITextFieldExtension.swift in Sources */,
+				2D46F14336A78F7543287C36A574C33B /* UITextViewExtension.swift in Sources */,
+				F7A3DC2A0D7728CF54FC281BB31ECF75 /* UIViewControllerExtension.swift in Sources */,
+				5B4D098EC106B16C0F32A94F67AD625C /* UIViewExtension.swift in Sources */,
+				F08DEEB9EE4678440C61DB62E70DF831 /* UserDefaultHandler.swift in Sources */,
+				C9D1D2110C0356E58EA4BDA2EA3A6B15 /* UserDefaultsExtension.swift in Sources */,
+				05665C1D6CDBDE4307985160E716EB2A /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +559,7 @@
 		39B76B509749A18AEA6226CBD30C63E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AwesomeMVVM;
-			target = 61A0D18A3EE59858D0A91E22B070569A /* AwesomeMVVM */;
+			target = 56049640C07D982BFCE14682675F54D6 /* AwesomeMVVM */;
 			targetProxy = 9811FC38221822B2C4AFAB713928893B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -594,41 +606,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2CCBF1FA0D53DB24BA8ABE9906D05D4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41F58909EE78F9A18B78F0F546070350 /* AwesomeMVVM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AwesomeMVVM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -706,6 +683,42 @@
 			};
 			name = Debug;
 		};
+		A4C6138DEB94CAA6602A321608C5A22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F58909EE78F9A18B78F0F546070350 /* AwesomeMVVM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AwesomeMVVM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AB0AB8A41A0EB6217BDA2421057BDE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB635589E35272306AD887771D2FCA97 /* Pods-AwesomeMVVM_Example.debug.xcconfig */;
@@ -735,42 +748,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_AwesomeMVVM_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D70D8C6656C861C9748F1B39EEC46D11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41F58909EE78F9A18B78F0F546070350 /* AwesomeMVVM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AwesomeMVVM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -869,6 +846,41 @@
 			};
 			name = Release;
 		};
+		E51D5101CC2F84427F0858C74CCCBB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F58909EE78F9A18B78F0F546070350 /* AwesomeMVVM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AwesomeMVVM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -877,15 +889,6 @@
 			buildConfigurations = (
 				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
 				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AFDA3A8C7A4FC60C3B38CCF3A22267D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D70D8C6656C861C9748F1B39EEC46D11 /* Debug */,
-				2CCBF1FA0D53DB24BA8ABE9906D05D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -904,6 +907,15 @@
 			buildConfigurations = (
 				70ABE748616A1A405EF5F98398C15F31 /* Debug */,
 				34F1E2FE140D4A65C824017706C7DE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC45EDBA2ED4A4DE221D77F292B7C398 /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C6138DEB94CAA6602A321608C5A22E /* Debug */,
+				E51D5101CC2F84427F0858C74CCCBB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
