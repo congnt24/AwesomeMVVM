@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public extension UIViewController {
-    /// SwifterSwift: Assign as listener to notification.
+    /// Assign as listener to notification.
     ///
     /// - Parameters:
     ///   - name: notification name.
@@ -19,14 +19,14 @@ public extension UIViewController {
         NotificationCenter.default.addObserver(self, selector: selector, name: name, object: nil)
     }
     
-    /// SwifterSwift: Unassign as listener to notification.
+    /// Unassign as listener to notification.
     ///
     /// - Parameter name: notification name.
     public func removeNotificationObserver(name: Notification.Name) {
         NotificationCenter.default.removeObserver(self, name: name, object: nil)
     }
     
-    /// SwifterSwift: Unassign as listener from all notifications.
+    /// Unassign as listener from all notifications.
     public func removeNotificationsObserver() {
         NotificationCenter.default.removeObserver(self)
     }

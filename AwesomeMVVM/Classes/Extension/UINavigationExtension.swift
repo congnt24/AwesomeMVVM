@@ -11,7 +11,7 @@ import UIKit
 
 public extension UINavigationController {
     
-    /// SwifterSwift: Pop ViewController with completion handler.
+    /// Pop ViewController with completion handler.
     ///
     /// - Parameter completion: optional completion handler (default is nil).
     public func popViewController(_ completion: (()->Void)? = nil) {
@@ -22,7 +22,7 @@ public extension UINavigationController {
         CATransaction.commit()
     }
     
-    /// SwifterSwift: Push ViewController with completion handler.
+    /// Push ViewController with completion handler.
     ///
     /// - Parameters:
     ///   - viewController: viewController to push.
@@ -35,7 +35,7 @@ public extension UINavigationController {
         CATransaction.commit()
     }
     
-    /// SwifterSwift: Make navigation controller's navigation bar transparent.
+    /// Make navigation controller's navigation bar transparent.
     ///
     /// - Parameter tint: tint color (default is .white).
     public func makeTransparent(withTint tint: UIColor = .white) {

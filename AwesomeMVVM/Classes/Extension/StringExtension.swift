@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Properties
 public extension String {
     
-    /// SwifterSwift: String decoded from base64 (if applicable).
+    /// String decoded from base64 (if applicable).
     public var base64Decoded: String? {
         // https://github.com/Reza-Rg/Base64-Swift-Extension/blob/master/Base64.swift
         guard let decodedData = Data(base64Encoded: self) else {
@@ -20,19 +20,19 @@ public extension String {
         return String(data: decodedData, encoding: .utf8)
     }
     
-    /// SwifterSwift: String encoded in base64 (if applicable).
+    /// String encoded in base64 (if applicable).
     public var base64Encoded: String? {
         // https://github.com/Reza-Rg/Base64-Swift-Extension/blob/master/Base64.swift
         let plainData = data(using: .utf8)
         return plainData?.base64EncodedString()
     }
     
-    /// SwifterSwift: Array of characters of a string.
+    /// Array of characters of a string.
     public var charactersArray: [Character] {
         return Array(characters)
     }
     
-    /// SwifterSwift: CamelCase of string.
+    /// CamelCase of string.
     public var camelCased: String {
         let source = lowercased()
         if source.characters.contains(" ") {
@@ -47,7 +47,7 @@ public extension String {
         return first + rest
     }
     
-    /// SwifterSwift: Check if string contains one or more emojis.
+    /// Check if string contains one or more emojis.
     public var containEmoji: Bool {
         // http://stackoverflow.com/questions/30757193/find-out-if-character-in-string-is-emoji
         for scalar in unicodeScalars {
@@ -65,7 +65,7 @@ public extension String {
         return false
     }
     
-    /// SwifterSwift: First character of string (if applicable).
+    /// First character of string (if applicable).
     public var firstCharacter: String? {
         guard let first = characters.first else {
             return nil
@@ -73,38 +73,38 @@ public extension String {
         return String(first)
     }
     
-    /// SwifterSwift: Check if string contains one or more letters.
+    /// Check if string contains one or more letters.
     public var hasLetters: Bool {
         return rangeOfCharacter(from: .letters, options: .numeric, range: nil) != nil
     }
     
-    /// SwifterSwift: Check if string contains one or more numbers.
+    /// Check if string contains one or more numbers.
     public var hasNumbers: Bool {
         return rangeOfCharacter(from: .decimalDigits, options: .literal, range: nil) != nil
     }
     
-    /// SwifterSwift: Check if string contains only letters.
+    /// Check if string contains only letters.
     public var isAlphabetic: Bool {
         return hasLetters && !hasNumbers
     }
     
-    /// SwifterSwift: Check if string contains at least one letter and one number.
+    /// Check if string contains at least one letter and one number.
     public var isAlphaNumeric: Bool {
         return components(separatedBy: CharacterSet.alphanumerics).joined(separator: "").characters.count == 0 && hasLetters && hasNumbers
     }
     
-    /// SwifterSwift: Check if string is valid email format.
+    /// Check if string is valid email format.
     public var isEmail: Bool {
         // http://stackoverflow.com/questions/25471114/how-to-validate-an-e-mail-address-in-swift
         return matches(pattern: "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
     }
     
-    /// SwifterSwift: Check if string is a valid URL.
+    /// Check if string is a valid URL.
     public var isValidUrl: Bool {
         return URL(string: self) != nil
     }
     
-    /// SwifterSwift: Check if string is a valid schemed URL.
+    /// Check if string is a valid schemed URL.
     public var isValidSchemedUrl: Bool {
         guard let url = URL(string: self) else {
             return false
@@ -112,7 +112,7 @@ public extension String {
         return url.scheme != nil
     }
     
-    /// SwifterSwift: Check if string is a valid https URL.
+    /// Check if string is a valid https URL.
     public var isValidHttpsUrl: Bool {
         guard let url = URL(string: self) else {
             return false
@@ -120,7 +120,7 @@ public extension String {
         return url.scheme == "https"
     }
     
-    /// SwifterSwift: Check if string is a valid http URL.
+    /// Check if string is a valid http URL.
     public var isValidHttpUrl: Bool {
         guard let url = URL(string: self) else {
             return false
@@ -128,17 +128,17 @@ public extension String {
         return url.scheme == "http"
     }
     
-    /// SwifterSwift: Check if string is a valid file URL.
+    /// Check if string is a valid file URL.
     public var isValidFileUrl: Bool {
         return URL(string: self)?.isFileURL ?? false
     }
     
-    /// SwifterSwift: Check if string contains only numbers.
+    /// Check if string contains only numbers.
     public var isNumeric: Bool {
         return  !hasLetters && hasNumbers
     }
     
-    /// SwifterSwift: Last character of string (if applicable).
+    /// Last character of string (if applicable).
     public var lastCharacter: String? {
         guard let last = characters.last else {
             return nil
@@ -146,17 +146,17 @@ public extension String {
         return String(last)
     }
     
-    /// SwifterSwift: Latinized string.
+    /// Latinized string.
     public var latinized: String {
         return folding(options: .diacriticInsensitive, locale: Locale.current)
     }
     
-    /// SwifterSwift: Number of characters in string.
+    /// Number of characters in string.
     public var length: Int {
         return characters.count
     }
     
-    /// SwifterSwift: Array of strings separated by new lines.
+    /// Array of strings separated by new lines.
     public var lines: [String] {
         var result = [String]()
         enumerateLines { line, _ in
@@ -165,7 +165,7 @@ public extension String {
         return result
     }
     
-    /// SwifterSwift: The most common character in string.
+    /// The most common character in string.
 //    public var mostCommonCharacter: String {
 //        let mostCommon = withoutSpacesAndNewLines.characters.reduce([Character: Int]()) {
 //            var counts = $0
@@ -175,12 +175,12 @@ public extension String {
 //        return mostCommon?.string ?? ""
 //    }
     
-    /// SwifterSwift: Reversed string.
+    /// Reversed string.
     public var reversed: String {
         return String(characters.reversed())
     }
     
-    /// SwifterSwift: Bool value from string (if applicable).
+    /// Bool value from string (if applicable).
     public var bool: Bool? {
         let selfLowercased = trimmed.lowercased()
         if selfLowercased == "true" || selfLowercased == "1" {
@@ -191,7 +191,7 @@ public extension String {
         return nil
     }
     
-    /// SwifterSwift: Date object from "yyyy-MM-dd" formatted string
+    /// Date object from "yyyy-MM-dd" formatted string
     public var date: Date? {
         let selfLowercased = trimmed.lowercased()
         let formatter = DateFormatter()
@@ -200,7 +200,7 @@ public extension String {
         return formatter.date(from: selfLowercased)
     }
     
-    /// SwifterSwift: Date object from "yyyy-MM-dd HH:mm:ss" formatted string.
+    /// Date object from "yyyy-MM-dd HH:mm:ss" formatted string.
     public var dateTime: Date? {
         let selfLowercased = trimmed.lowercased()
         let formatter = DateFormatter()
@@ -209,81 +209,81 @@ public extension String {
         return formatter.date(from: selfLowercased)
     }
     
-    /// SwifterSwift: Double value from string (if applicable).
+    /// Double value from string (if applicable).
     public var double: Double? {
         let formatter = NumberFormatter()
         return formatter.number(from: self) as? Double
     }
     
-    /// SwifterSwift: Float value from string (if applicable).
+    /// Float value from string (if applicable).
     public var float: Float? {
         let formatter = NumberFormatter()
         return formatter.number(from: self) as? Float
     }
     
-    /// SwifterSwift: Float32 value from string (if applicable).
+    /// Float32 value from string (if applicable).
     public var float32: Float32? {
         let formatter = NumberFormatter()
         return formatter.number(from: self) as? Float32
     }
     
-    /// SwifterSwift: Float64 value from string (if applicable).
+    /// Float64 value from string (if applicable).
     public var float64: Float64? {
         let formatter = NumberFormatter()
         return formatter.number(from: self) as? Float64
     }
     
-    /// SwifterSwift: Integer value from string (if applicable).
+    /// Integer value from string (if applicable).
     public var int: Int? {
         return Int(self)
     }
     
-    /// SwifterSwift: Int16 value from string (if applicable).
+    /// Int16 value from string (if applicable).
     public var int16: Int16? {
         return Int16(self)
     }
     
-    /// SwifterSwift: Int32 value from string (if applicable).
+    /// Int32 value from string (if applicable).
     public var int32: Int32? {
         return Int32(self)
     }
     
-    /// SwifterSwift: Int64 value from string (if applicable).
+    /// Int64 value from string (if applicable).
     public var int64: Int64? {
         return Int64(self)
     }
     
-    /// SwifterSwift: Int8 value from string (if applicable).
+    /// Int8 value from string (if applicable).
     public var int8: Int8? {
         return Int8(self)
     }
     
-    /// SwifterSwift: URL from string (if applicable).
+    /// URL from string (if applicable).
     public var url: URL? {
         return URL(string: self)
     }
     
-    /// SwifterSwift: String with no spaces or new lines in beginning and end.
+    /// String with no spaces or new lines in beginning and end.
     public var trimmed: String {
         return trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
-    /// SwifterSwift: Array with unicodes for all characters in a string.
+    /// Array with unicodes for all characters in a string.
     public var unicodeArray: [Int] {
         return unicodeScalars.map({$0.hashValue})
     }
     
-    /// SwifterSwift: Readable string from a URL string.
+    /// Readable string from a URL string.
     public var urlDecoded: String {
         return removingPercentEncoding ?? self
     }
     
-    /// SwifterSwift: URL escaped string.
+    /// URL escaped string.
     public var urlEncoded: String {
         return addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
     }
     
-    /// SwifterSwift: String without spaces and new lines.
+    /// String without spaces and new lines.
     public var withoutSpacesAndNewLines: String {
         return replacing(" ", with: "").replacing("\n", with: "")
     }
@@ -294,7 +294,7 @@ public extension String {
 // MARK: - Methods
 public extension String {
     
-    /// SwifterSwift: Safely subscript string with index.
+    /// Safely subscript string with index.
     ///
     /// - Parameter i: index.
     public subscript(i: Int) -> String? {
@@ -304,7 +304,7 @@ public extension String {
         return String(self[index(startIndex, offsetBy: i)])
     }
     
-    /// SwifterSwift: Safely subscript string within a half-open range.
+    /// Safely subscript string within a half-open range.
     ///
     /// - Parameter range: Half-open range.
     public subscript(range: CountableRange<Int>) -> String? {
@@ -317,7 +317,7 @@ public extension String {
         return self[lowerIndex..<upperIndex]
     }
     
-    /// SwifterSwift: Safely subscript string within a closed range.
+    /// Safely subscript string within a closed range.
     ///
     /// - Parameter range: Closed range.
     public subscript(range: ClosedRange<Int>) -> String? {
@@ -331,7 +331,7 @@ public extension String {
     }
     
     #if os(iOS) || os(macOS)
-    /// SwifterSwift: Copy string to global pasteboard.
+    /// Copy string to global pasteboard.
     public func copyToPasteboard() {
         #if os(iOS)
             UIPasteboard.general.string = self
@@ -342,12 +342,12 @@ public extension String {
     }
     #endif
     
-    /// SwifterSwift: Converts string format to CamelCase.
+    /// Converts string format to CamelCase.
     public mutating func camelize() {
         self = camelCased
     }
     
-    /// SwifterSwift: Check if string contains one or more instance of substring.
+    /// Check if string contains one or more instance of substring.
     ///
     /// - Parameters:
     ///   - string: substring to search for.
@@ -360,7 +360,7 @@ public extension String {
         return range(of: string) != nil
     }
     
-    /// SwifterSwift: Count of substring in string.
+    /// Count of substring in string.
     ///
     /// - Parameters:
     ///   - string: substring to search for.
@@ -373,7 +373,7 @@ public extension String {
         return components(separatedBy: string).count - 1
     }
     
-    /// SwifterSwift: Check if string ends with substring.
+    /// Check if string ends with substring.
     ///
     /// - Parameters:
     ///   - suffix: substring to search if string ends with.
@@ -386,7 +386,7 @@ public extension String {
         return hasSuffix(suffix)
     }
     
-    /// SwifterSwift: First index of substring in string.
+    /// First index of substring in string.
     ///
     /// - Parameter string: substring to search for.
     /// - Returns: first index of substring in string (if applicable).
@@ -394,12 +394,12 @@ public extension String {
         return Array(characters).map({String($0)}).index(of: string)
     }
     
-    /// SwifterSwift: Latinize string.
+    /// Latinize string.
     public mutating func latinize() {
         self = latinized
     }
     
-    /// SwifterSwift: Random string of given length.
+    /// Random string of given length.
     ///
     /// - Parameter length: number of characters in string.
     /// - Returns: random string of given length.
@@ -413,7 +413,7 @@ public extension String {
         }
     }
     
-    /// SwifterSwift: String by replacing part of string with another string.
+    /// String by replacing part of string with another string.
     ///
     /// - Parameters:
     ///   - substring: old substring to find and replace.
@@ -423,12 +423,12 @@ public extension String {
         return replacingOccurrences(of: substring, with: newString)
     }
     
-    /// SwifterSwift: Reverse string.
+    /// Reverse string.
     public mutating func reverse() {
         self = String(characters.reversed())
     }
     
-    /// SwifterSwift: Sliced string from a start index with length.
+    /// Sliced string from a start index with length.
     ///
     /// - Parameters:
     ///   - i: string index the slicing should start from.
@@ -447,7 +447,7 @@ public extension String {
         return self[i..<i.advanced(by: length)]
     }
     
-    /// SwifterSwift: Slice given string from a start index with length (if applicable).
+    /// Slice given string from a start index with length (if applicable).
     ///
     /// - Parameters:
     ///   - i: string index the slicing should start from.
@@ -458,7 +458,7 @@ public extension String {
         }
     }
     
-    /// SwifterSwift: Sliced string from a start index to an end index.
+    /// Sliced string from a start index to an end index.
     ///
     /// - Parameters:
     ///   - start: string index the slicing should start from.
@@ -471,7 +471,7 @@ public extension String {
         return self[start..<end]
     }
     
-    /// SwifterSwift: Slice given string from a start index to an end index (if applicable).
+    /// Slice given string from a start index to an end index (if applicable).
     ///
     /// - Parameters:
     ///   - start: string index the slicing should start from.
@@ -482,7 +482,7 @@ public extension String {
         }
     }
     
-    /// SwifterSwift: Sliced string from a start index.
+    /// Sliced string from a start index.
     ///
     /// - Parameter i: string index the slicing should start from.
     /// - Returns: sliced substring starting from start index (if applicable) (example: "Hello world".slicing(at: 6) -> "world")
@@ -493,7 +493,7 @@ public extension String {
         return self[i..<characters.count]
     }
     
-    /// SwifterSwift: Slice given string from a start index (if applicable).
+    /// Slice given string from a start index (if applicable).
     ///
     /// - Parameter i: string index the slicing should start from.
     public mutating func slice(at i: Int) {
@@ -502,7 +502,7 @@ public extension String {
         }
     }
     
-    /// SwifterSwift: Array of strings separated by given string.
+    /// Array of strings separated by given string.
     ///
     /// - Parameter separator: separator to split string by.
     /// - Returns: array of strings separated by given string.
@@ -510,7 +510,7 @@ public extension String {
         return characters.split{$0 == separator}.map(String.init)
     }
     
-    /// SwifterSwift: Check if string starts with substring.
+    /// Check if string starts with substring.
     ///
     /// - Parameters:
     ///   - suffix: substring to search if string starts with.
@@ -523,7 +523,7 @@ public extension String {
         return hasPrefix(prefix)
     }
     
-    /// SwifterSwift: Date object from string of date format.
+    /// Date object from string of date format.
     ///
     /// - Parameter format: date format.
     /// - Returns: Date object from string (if applicable).
@@ -533,12 +533,12 @@ public extension String {
         return dateFormatter.date(from: self)
     }
     
-    /// SwifterSwift: Removes spaces and new lines in beginning and end of string.
+    /// Removes spaces and new lines in beginning and end of string.
     public mutating func trim() {
         self = trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
     
-    /// SwifterSwift: Truncate string (cut it to a given number of characters).
+    /// Truncate string (cut it to a given number of characters).
     ///
     /// - Parameters:
     ///   - toLength: maximum number of characters before cutting.
@@ -552,7 +552,7 @@ public extension String {
         }
     }
     
-    /// SwifterSwift: Truncated string (limited to a given number of characters).
+    /// Truncated string (limited to a given number of characters).
     ///
     /// - Parameters:
     ///   - toLength: maximum number of characters before cutting.
@@ -563,21 +563,21 @@ public extension String {
         return substring(to: index(startIndex, offsetBy: toLength)) + (trailing ?? "")
     }
     
-    /// SwifterSwift: Convert URL string to readable string.
+    /// Convert URL string to readable string.
     public mutating func urlDecode() {
         if let decoded = removingPercentEncoding {
             self = decoded
         }
     }
     
-    /// SwifterSwift: Escape string.
+    /// Escape string.
     public mutating func urlEncode() {
         if let encoded = addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) {
             self = encoded
         }
     }
     
-    /// SwifterSwift: Verify if string matches the regex pattern.
+    /// Verify if string matches the regex pattern.
     ///
     /// - Parameter pattern: Pattern to verify.
     /// - Returns: true if string matches the pattern.
@@ -593,7 +593,7 @@ public extension String {
 // MARK: - Operators
 public extension String {
     
-    /// SwifterSwift: Repeat string multiple times.
+    /// Repeat string multiple times.
     ///
     /// - Parameters:
     ///   - lhs: string to repeat.
@@ -606,7 +606,7 @@ public extension String {
         return String(repeating: lhs, count: rhs)
     }
     
-    /// SwifterSwift: Repeat string multiple times.
+    /// Repeat string multiple times.
     ///
     /// - Parameters:
     ///   - lhs: number of times to repeat character.
@@ -625,7 +625,7 @@ public extension String {
 // MARK: - Initializers
 public extension String {
     
-    /// SwifterSwift: Create a new string from a base64 string (if applicable).
+    /// Create a new string from a base64 string (if applicable).
     ///
     /// - Parameter base64: base64 string.
     public init?(base64: String) {
@@ -635,7 +635,7 @@ public extension String {
         self.init(str)
     }
     
-    /// SwifterSwift: Create a new random string of given length.
+    /// Create a new random string of given length.
     ///
     /// - Parameter length: number of characters in string.
     public init(randomOfLength length: Int) {
@@ -649,7 +649,7 @@ public extension String {
 public extension String {
     
     #if !os(tvOS) && !os(watchOS)
-    /// SwifterSwift: Bold string.
+    /// Bold string.
     public var bold: NSAttributedString {
         #if os(macOS)
             return NSMutableAttributedString(string: self, attributes: [NSFontAttributeName: NSFont.boldSystemFont(ofSize: NSFont.systemFontSize())])
@@ -659,25 +659,25 @@ public extension String {
     }
     #endif
     
-    /// SwifterSwift: Underlined string
+    /// Underlined string
     public var underline: NSAttributedString {
         return NSAttributedString(string: self, attributes: [NSUnderlineStyleAttributeName: NSUnderlineStyle.styleSingle.rawValue])
     }
     
-    /// SwifterSwift: Strikethrough string.
+    /// Strikethrough string.
     public var strikethrough: NSAttributedString {
         return NSAttributedString(string: self, attributes: [NSStrikethroughStyleAttributeName: NSNumber(value: NSUnderlineStyle.styleSingle.rawValue as Int)])
     }
     
     #if os(iOS)
-    /// SwifterSwift: Italic string.
+    /// Italic string.
     public var italic: NSAttributedString {
         return NSMutableAttributedString(string: self, attributes: [NSFontAttributeName: UIFont.italicSystemFont(ofSize: UIFont.systemFontSize)])
     }
     #endif
     
     #if os(macOS)
-    /// SwifterSwift: Add color to string.
+    /// Add color to string.
     ///
     /// - Parameter color: text color.
     /// - Returns: a NSAttributedString versions of string colored with given color.
@@ -685,7 +685,7 @@ public extension String {
     return NSMutableAttributedString(string: self, attributes: [NSForegroundColorAttributeName: color])
     }
     #else
-    /// SwifterSwift: Add color to string.
+    /// Add color to string.
     ///
     /// - Parameter color: text color.
     /// - Returns: a NSAttributedString versions of string colored with given color.
@@ -700,37 +700,37 @@ public extension String {
 //MARK: - NSString extensions
 public extension String {
     
-    /// SwifterSwift: NSString from a string.
+    /// NSString from a string.
     public var nsString: NSString {
         return NSString(string: self)
     }
     
-    /// SwifterSwift: NSString lastPathComponent.
+    /// NSString lastPathComponent.
     public var lastPathComponent: String {
         return (self as NSString).lastPathComponent
     }
     
-    /// SwifterSwift: NSString pathExtension.
+    /// NSString pathExtension.
     public var pathExtension: String {
         return (self as NSString).pathExtension
     }
     
-    /// SwifterSwift: NSString deletingLastPathComponent.
+    /// NSString deletingLastPathComponent.
     public var deletingLastPathComponent: String {
         return (self as NSString).deletingLastPathComponent
     }
     
-    /// SwifterSwift: NSString deletingPathExtension.
+    /// NSString deletingPathExtension.
     public var deletingPathExtension: String {
         return (self as NSString).deletingPathExtension
     }
     
-    /// SwifterSwift: NSString pathComponents.
+    /// NSString pathComponents.
     public var pathComponents: [String] {
         return (self as NSString).pathComponents
     }
     
-    /// SwifterSwift: NSString appendingPathComponent(str: String)
+    /// NSString appendingPathComponent(str: String)
     ///
     /// - Parameter str: the path component to append to the receiver.
     /// - Returns: a new string made by appending aString to the receiver, preceded if necessary by a path separator.
@@ -738,7 +738,7 @@ public extension String {
         return (self as NSString).appendingPathComponent(str)
     }
     
-    /// SwifterSwift: NSString appendingPathExtension(str: String)
+    /// NSString appendingPathExtension(str: String)
     ///
     /// - Parameter str: The extension to append to the receiver.
     /// - Returns: a new string made by appending to the receiver an extension separator followed by ext (if applicable).

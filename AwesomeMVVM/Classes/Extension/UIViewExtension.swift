@@ -11,7 +11,7 @@ import UIKit
 
 
 // MARK: - enums
-/// SwifterSwift: Shake directions of a view.
+/// Shake directions of a view.
 ///
 /// - horizontal: Shake left and right.
 /// - vertical: Shake up and down.
@@ -20,7 +20,7 @@ public enum ShakeDirection {
     case vertical
 }
 
-/// SwifterSwift: Angle units.
+/// Angle units.
 ///
 /// - degrees: degrees.
 /// - radians: radians.
@@ -29,7 +29,7 @@ public enum AngleUnit {
     case radians
 }
 
-/// SwifterSwift: Shake animations types.
+/// Shake animations types.
 ///
 /// - linear: linear animation.
 /// - easeIn: easeIn animation
@@ -46,7 +46,7 @@ public enum ShakeAnimationType {
 // MARK: - Properties
 public extension UIView {
     @IBInspectable
-    /// SwifterSwift: Border color of view; also inspectable from Storyboard.
+    /// Border color of view; also inspectable from Storyboard.
     public var borderColor: UIColor? {
         get {
             return UIColor(cgColor: layer.borderColor!)
@@ -61,7 +61,7 @@ public extension UIView {
     }
 
     @IBInspectable
-    /// SwifterSwift: Border width of view; also inspectable from Storyboard.
+    /// Border width of view; also inspectable from Storyboard.
     public var borderWidth: CGFloat {
         get {
             return layer.borderWidth
@@ -72,7 +72,7 @@ public extension UIView {
     }
 
     @IBInspectable
-    /// SwifterSwift: Corner radius of view; also inspectable from Storyboard.
+    /// Corner radius of view; also inspectable from Storyboard.
     public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -85,7 +85,7 @@ public extension UIView {
 
 
     @IBInspectable
-    /// SwifterSwift: Shadow color of view; also inspectable from Storyboard.
+    /// Shadow color of view; also inspectable from Storyboard.
     public var shadowColor: UIColor? {
         get {
             return UIColor(cgColor: layer.shadowColor!)
@@ -97,7 +97,7 @@ public extension UIView {
 
 
     @IBInspectable
-    /// SwifterSwift: Shadow offset of view; also inspectable from Storyboard.
+    /// Shadow offset of view; also inspectable from Storyboard.
     public var shadowOffset: CGSize {
         get {
             return layer.shadowOffset
@@ -108,7 +108,7 @@ public extension UIView {
     }
 
     @IBInspectable
-    /// SwifterSwift: Shadow opacity of view; also inspectable from Storyboard.
+    /// Shadow opacity of view; also inspectable from Storyboard.
     public var shadowOpacity: Float {
         get {
             return layer.shadowOpacity
@@ -120,7 +120,7 @@ public extension UIView {
 
 
     @IBInspectable
-    /// SwifterSwift: Shadow radius of view; also inspectable from Storyboard.
+    /// Shadow radius of view; also inspectable from Storyboard.
     public var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
@@ -130,7 +130,7 @@ public extension UIView {
         }
     }
 
-    /// SwifterSwift: Take screenshot of view (if applicable).
+    /// Take screenshot of view (if applicable).
     public var screenshot: UIImage? {
         UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, 0.0);
         defer {
@@ -147,7 +147,7 @@ public extension UIView {
 
 // MARK: - Animation
 public extension UIView {
-    /// SwifterSwift: Fade in view.
+    /// Fade in view.
     ///
     /// - Parameters:
     ///   - duration: animation duration in seconds (default is 1 second).
@@ -161,7 +161,7 @@ public extension UIView {
         }, completion: completion)
     }
 
-    /// SwifterSwift: Fade out view.
+    /// Fade out view.
     ///
     /// - Parameters:
     ///   - duration: animation duration in seconds (default is 1 second).
@@ -175,7 +175,7 @@ public extension UIView {
         }, completion: completion)
     }
 
-    /// SwifterSwift: Load view from nib.
+    /// Load view from nib.
     ///
     /// - Parameters:
     ///   - name: nib name.
@@ -185,17 +185,17 @@ public extension UIView {
         return UINib(nibName: name, bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as? UIView
     }
 
-    /// SwifterSwift: Remove all subviews in view.
+    /// Remove all subviews in view.
     public func removeSubviews() {
         subviews.forEach({ $0.removeFromSuperview() })
     }
 
-    /// SwifterSwift: Remove all gesture recognizers from view.
+    /// Remove all gesture recognizers from view.
     public func removeGestureRecognizers() {
         gestureRecognizers?.forEach(removeGestureRecognizer)
     }
 
-    /// SwifterSwift: Rotate view by angle on relative axis.
+    /// Rotate view by angle on relative axis.
     ///
     /// - Parameters:
     ///   - angle: angle to rotate view by.
@@ -211,7 +211,7 @@ public extension UIView {
         }, completion: completion)
     }
 
-    /// SwifterSwift: Rotate view to angle on fixed axis.
+    /// Rotate view to angle on fixed axis.
     ///
     /// - Parameters:
     ///   - angle: angle to rotate view to.
@@ -227,7 +227,7 @@ public extension UIView {
         }, completion: completion)
     }
 
-    /// SwifterSwift: Scale view by offset.
+    /// Scale view by offset.
     ///
     /// - Parameters:
     ///   - offset: scale offset
@@ -247,7 +247,7 @@ public extension UIView {
 
 
 
-    /// SwifterSwift: Shake view.
+    /// Shake view.
     ///
     /// - Parameters:
     ///   - direction: shake direction (horizontal or vertical), (default is .horizontal)
@@ -295,7 +295,7 @@ public extension UIView {
         self.layer.add(anim, forKey: nil)
     }
 
-    /// SwifterSwift: Anchor all sides of the view into it's superview.
+    /// Anchor all sides of the view into it's superview.
     @available(iOS 9, *) public func fillToSuperview() {
         // https://videos.letsbuildthatapp.com/
         translatesAutoresizingMaskIntoConstraints = false

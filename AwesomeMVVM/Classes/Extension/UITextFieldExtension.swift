@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 public extension UITextField {
-    /// SwifterSwift: Check if text field is empty.
+    /// Check if text field is empty.
     public var isEmpty: Bool {
         return text?.isEmpty == true
     }
     
-    /// SwifterSwift: Return text with no spaces or new lines in beginning and end.
+    /// Return text with no spaces or new lines in beginning and end.
     public var trimmedText: String? {
         return text?.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
