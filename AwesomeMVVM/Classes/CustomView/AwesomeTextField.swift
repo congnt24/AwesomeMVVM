@@ -95,6 +95,7 @@ public class AwesomeTextField: UITextField {
 
     @IBInspectable var rightImage: UIImage? {
         didSet {
+            print(rightImage?.description)
             rightViewMode = .always
             if rightViewTintColor != UIColor.clear {
                 let tmp = rightViewTintColor

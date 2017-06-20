@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'AwesomeMVVM/Classes/**/*'
   s.resources = 'AwesomeMVVM/Assets/*'
+  s.resource_bundles = {
+    'AwesomeMVVM' => ['Resources/Assets/**/*.{imageset}']
+  }
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

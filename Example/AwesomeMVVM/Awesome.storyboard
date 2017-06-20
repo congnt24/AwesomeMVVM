@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NjD-g2-UUX">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,17 +19,17 @@
                         <viewControllerLayoutGuide type="bottom" id="sDX-kj-XhM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NWB-hg-vIk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ce8-hF-j6b">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yeu-1e-Tro">
-                                <rect key="frame" x="36" y="248.5" width="303" height="170"/>
+                                <rect key="frame" x="36" y="199" width="248" height="170"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rSt-40-vDs" customClass="AwesomeTextField" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="0.0" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="50"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.34509803919999998" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -45,7 +45,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EEN-B9-MSs" customClass="AwesomeTextField" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="60" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="60" width="248" height="50"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.34509803919999998" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -61,7 +61,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UYn-vZ-tB2" customClass="AwesomeTextField" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="120" width="303" height="50"/>
+                                        <rect key="frame" x="0.0" y="120" width="248" height="50"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.34509803919999998" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -82,7 +82,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IqC-iB-1MP">
-                                <rect key="frame" x="36" y="547" width="303" height="50"/>
+                                <rect key="frame" x="36" y="448" width="248" height="50"/>
                                 <color key="backgroundColor" red="0.92291629310000001" green="0.3703102767" blue="0.18846371770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="pid-Mc-mi0"/>
@@ -98,6 +98,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="mtm-Rt-afv"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_star_filled" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-N5-Fqq">
+                                <rect key="frame" x="44" y="20" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -130,18 +134,18 @@
                         <viewControllerLayoutGuide type="bottom" id="Ze4-1b-Yto"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oZb-GD-Hwo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3zd-6w-dQ9">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="9TO-oa-22M" detailTextLabel="H2n-ve-dzF" style="IBUITableViewCellStyleValue1" id="mb4-Qe-Umx">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mb4-Qe-Umx" id="5e3-UI-6kb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9TO-oa-22M">
@@ -152,7 +156,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H2n-ve-dzF">
-                                                    <rect key="frame" x="316" y="12" width="44" height="20.5"/>
+                                                    <rect key="frame" x="261" y="12" width="44" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -186,14 +190,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="p4N-Y1-dRs">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BeO-7W-qlk">
-                                <rect key="frame" x="132.5" y="72" width="110" height="110"/>
+                                <rect key="frame" x="105" y="72" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="Pat-gd-1Hl"/>
                                     <constraint firstAttribute="height" constant="110" id="gK3-68-iLs"/>
@@ -207,18 +211,18 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SKa-2N-W6l">
-                                <rect key="frame" x="26" y="401" width="323" height="196"/>
+                                <rect key="frame" x="26" y="302" width="268" height="196"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username 😄" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="11c-x3-5ie" customClass="AwesomeTextField" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="0.0" width="323" height="52"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="52"/>
                                         <color key="backgroundColor" red="0.49803921568627452" green="0.39215686274509803" blue="0.34509803921568627" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftViewImage" value="textField:11c-x3-5ie:value"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="E7340425-0FDB-4797-BDCD-AA454826CB7A"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="E7340425-0FDB-4797-BDCD-AA454826CB7A"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="bottomLineWidth">
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
@@ -247,15 +251,15 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password 💖" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kaP-kj-b4Y" customClass="AwesomeTextField" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="72" width="323" height="52"/>
+                                        <rect key="frame" x="0.0" y="72" width="268" height="52"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.34509803919999998" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftViewImage" value="textField:11c-x3-5ie:value"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftViewTintColorImage" value="E7340425-0FDB-4797-BDCD-AA454826CB7A"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftaImage" value="E7340425-0FDB-4797-BDCD-AA454826CB7A"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="bottomLineWidth">
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
@@ -281,10 +285,13 @@
                                             <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
                                                 <color key="value" cocoaTouchSystemColor="lightTextColor"/>
                                             </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="rightViewTintColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZF-r9-CPB">
-                                        <rect key="frame" x="0.0" y="144" width="323" height="52"/>
+                                        <rect key="frame" x="0.0" y="144" width="268" height="52"/>
                                         <color key="backgroundColor" red="0.92291629314422607" green="0.37031027674674988" blue="0.1884637176990509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="Get Started">
@@ -335,14 +342,14 @@
                         <viewControllerLayoutGuide type="bottom" id="tMO-up-FvZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eYd-kY-Prq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LpZ-gz-gWd" customClass="RadioGroup" customModule="AwesomeMVVM">
-                                <rect key="frame" x="46" y="233.5" width="283" height="200"/>
+                                <rect key="frame" x="46" y="184" width="228" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXw-h1-MfO" customClass="RadioGroupCell" customModule="AwesomeMVVM">
-                                        <rect key="frame" x="0.0" y="0.0" width="283" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="228" height="200"/>
                                         <state key="normal" image="icon_unchecked">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
@@ -401,7 +408,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BB8DC02B-68D6-48E1-A47C-B9DB6386EE02" width="33" height="33">
+        <image name="E7340425-0FDB-4797-BDCD-AA454826CB7A" width="33" height="33">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBMU
 GR4fJSYsLzU4VSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBz
@@ -421,6 +428,7 @@ sQGzAbgBwAHDAcgB0AHTAeUB6AHtAAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAe8
         <image name="Logo" width="112" height="120"/>
         <image name="background" width="375" height="667"/>
         <image name="icon_checked" width="32" height="32"/>
+        <image name="icon_star_filled" width="25" height="25"/>
         <image name="icon_unchecked" width="32" height="32"/>
         <image name="textField:11c-x3-5ie:value" width="18" height="18">
             <mutableData key="keyedArchiveRepresentation">
