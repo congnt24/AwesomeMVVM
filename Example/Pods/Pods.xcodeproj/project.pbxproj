@@ -7,46 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030DC1B4343AC9056A344630B65F88C0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB118B5E21E243A7556746D8B78DABF /* UIViewControllerExtension.swift */; };
-		163399B3F34CC32D407FD66C04637BB4 /* UISliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFDE9BE5A3394A4DC891294A4D1F6F2 /* UISliderExtension.swift */; };
-		1A55A69BF2EDCC7668CB64C2FEF053B7 /* AwesomeMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FABDC87595DD5E5373CD9E1E4D67F746 /* AwesomeMVVM-dummy.m */; };
-		1FD41CDE399B3E67BF9A71D7C9E62363 /* LoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A70DD3C6F3DE7222EB075C920A612A /* LoadMoreTableViewCell.xib */; };
-		206E4CD802BE676658D1653F9EF9F63A /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BBD4251712960F936B57710284A3D /* UINavigationExtension.swift */; };
-		20C2BC44C6BB7B43DDB73FA0F190E14F /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16D91E7DD1AB51AB6B85DF593BF34 /* UICollectionViewExtension.swift */; };
-		24C4ED018172E75902866E4240EEC8C0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC78CF8E0E5275707C992EEE3482E250 /* UIImageViewExtension.swift */; };
-		2571D0BED66A4DA1E7FD4CBE91693A49 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E8DD68BEBE3DF872B0DA86A45C698 /* UIColorExtension.swift */; };
-		30AC385F9BB4DD0E4BE88C0B4E1A4906 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6A11C5A098D357255D4914122D1392 /* AppConstant.swift */; };
-		37FCB3DA5CD653898726F8E9F56B1377 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2873797538781CFA4CBC7FAD76463 /* BaseViewController.swift */; };
+		05E19CD02186C9B2ADDDDB1FFA4C0965 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4825BC3D969F24486768A32439C5BB /* UserDefaultsExtension.swift */; };
+		1109D2E44195652B19DA055BA45DDA0D /* AwesomeMVVM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC0AE9FB42A079B6502E95B64D68F5BC /* AwesomeMVVM.bundle */; };
+		12DCDD42CCBC9425D6B7147B00CBE979 /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856D41C1EF85878C078020EB72CD688 /* LoadMoreTableViewCell.swift */; };
+		16DBA2C38D1E70230EAA0AF27DE6590A /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF404C2BDFF4D53E467DEACF8F20DC1B /* UITextViewExtension.swift */; };
+		180A8A9F3BD31D49BC066F2B03C965B6 /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9EA063073C4D1B191BD1F5775D77AD /* LanguageHelper.swift */; };
+		1A586F175A0B8381AD60D7AC1ED49C39 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA516AD981D3CB47A6E8D83348826352 /* UIColorExtension.swift */; };
+		2D45B9412736A466CEA56933A9F64421 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AF1A331B5DDD773E1A7E75DFE4D0C /* StringExtension.swift */; };
+		2F62C475D2C8DE054035D18E23B56785 /* UserDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C16B1C57D1960D36440AFD43884B8A /* UserDefaultHandler.swift */; };
 		3B700A334548EFF78C7067F21E18546D /* Pods-AwesomeMVVM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6201F672C88C5DDB0B64B943C2F044 /* Pods-AwesomeMVVM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B8AC430DB6029AF297F437075BEFDB7 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0CE8725A818CA081915DF441E340 /* UITableViewExtension.swift */; };
-		3E0C3C59AED5F33D9ECB6E1EA1A5D8D2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097CD582D85EE63256E8F996232EAFD4 /* UIViewExtension.swift */; };
-		425EF0E47379C713D898276018B894DC /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFCC042C175640960EEA681AD825DF2 /* AppExtension.swift */; };
-		439B373C2022F16D820A47795F1380D4 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747EAB9D8F944186448E003D5D39E37A /* RadioGroup.swift */; };
 		47C6777F49A5513EF81E360BBBDBE457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A1B3D8A6AE4BD199380D6CB525FD46B /* RadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D8734A78CF4A1F131D5AAC6A6AB1 /* RadioGroupCell.swift */; };
-		53D811071C02CFDF62AB04AAACCFF739 /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725049ADB34FDA0096589C9C6FDAAAE /* UISearchBarExtension.swift */; };
-		588C7B6C1F6303A4727A21E605212331 /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF14F071DEEB754BCEE29418AE4133D /* AwesomeTextField.swift */; };
+		4E44527303ABA782437123C4F0F9D51C /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1098A34C8C63E4B38C746C9345949 /* AppExtension.swift */; };
+		507FF098D4145FD4E8513B75C22B569A /* AwesomeMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FABDC87595DD5E5373CD9E1E4D67F746 /* AwesomeMVVM-dummy.m */; };
+		5F0C9A85727C6CE22BF2AAC7DD1494B8 /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849A54CE9A7735EAAB63CB57E32360 /* UINavigationExtension.swift */; };
+		5FAF36A8CA9F300826BCF2E997C023FA /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D1C49EEF775628236DBCCC4FEAAA1 /* UISearchBarExtension.swift */; };
 		601F967A2026281B5A6B34F1884F179D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7085EB45F7E09AC5E64A32E36EFECC61 /* UserDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEABB80FED34D80AD8A3F34070522F57 /* UserDefaultHandler.swift */; };
-		726FE3AA1186338D87E57FC51192BCD5 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96DADFA9DE28A09329E6C2D3BB6962 /* UITextFieldExtension.swift */; };
-		7AA3397CD20396CA9595E368C899DF77 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB253E722C38327AC7A3FA6349F0B7 /* FirebaseHelper.swift */; };
-		A18981A07B7AA9F16FB9F2D2C175D48A /* CheckedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8DC6878A769858058A5D0A5A120552 /* CheckedButton.swift */; };
+		610C94078890B19B07A797C130D3875B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61799D59434A665B01B92E9543E3BCC8 /* CheckedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495A6B04242FD2D104AFA023CCB3242 /* CheckedButton.swift */; };
+		638A1CE90CC8D7202150D079328EC2E6 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340775F8FEC34F0C6209AB1747EA3F6 /* AppConstant.swift */; };
+		7326F10E58FF0E17666D0382125FAA54 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8567872FBEF7A554E016E3610979C89 /* UIViewControllerExtension.swift */; };
+		75873958F48E716D765A273AACFC1DF2 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC7D5380864442C144C6A27855CD9 /* UITableViewExtension.swift */; };
+		7858F2ABC61AE23EE9F90ABF584D301C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7C620E029889C797818E8B90C95B6 /* Repository.swift */; };
+		84F3368BD5ACFE58F785F5354BBC526A /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B75F142342ED05137569ECCA020834 /* LoadingOverlay.swift */; };
+		8B7DD584C16F1DD16225C625CFBC3714 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B249DB4F674C1AFBDDBF0FC9B26F679B /* RadioGroup.swift */; };
+		932CDA70A4DA9D571C144F323ABF321A /* UISliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070F3BA254C01C9A76B7C13E3B75E2A /* UISliderExtension.swift */; };
+		961CA214906632DEA8DD632BEEF22BC8 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DCFEB1B050542C58A672F5243A2F0B /* UIImageViewExtension.swift */; };
+		96FE5B6B1BBB277DA92A09DA34A48DC8 /* AwesomeMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8E4BDB957BE51CA3199857D054C462 /* AwesomeMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CE7BD315A49DF255CE97FF71C77405 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF97A1A8D7BE7FC38C078FAEF83AB6 /* UIViewExtension.swift */; };
+		A148DFF42054ED3CE6C2AAA6E62CCA16 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41CD9F2B8CFC51979B9A16B56E04AE /* ViewControllerExtension.swift */; };
+		A3D4704943F373ADC6373778FA24E28A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D99EF40018BD129C11E5118FA31802 /* Coordinator.swift */; };
+		A71C1499FB89DB6ACE761E3CF30C9D52 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976C797EB7784B2689562CF4C8F5F5F /* UICollectionViewExtension.swift */; };
 		A9F035FDCB37B21BAA8467730A243B90 /* Pods-AwesomeMVVM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B925A27B3A5433A43600817C35B6220 /* Pods-AwesomeMVVM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC27D740304C4F831B39A20BCBF30EB7 /* AwesomeMVVM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC0AE9FB42A079B6502E95B64D68F5BC /* AwesomeMVVM.bundle */; };
-		AE3460647064C1456ABADB5CF3DCC7E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD8A90BF7DE2F7DBF97EE216270BB860 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB021C4118D970129C87D720768B1CB /* UITextFieldExtension.swift */; };
 		B1FECCFCD12644F61CAA0BB57B239AE3 /* Pods-AwesomeMVVM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC02F14D2EC4BDAECEED3551423AC01 /* Pods-AwesomeMVVM_Example-dummy.m */; };
-		BFB07B56B24944223AB6C600854B253B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB5B0DC683B300639AF38248D6B82EF /* Coordinator.swift */; };
-		C5098EF66F25D3400D2FE13225F5C0FA /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D3D90FECCCCF535B587027ABDA27D /* UserDefaultsExtension.swift */; };
-		C704D2A9844D1A8F7BB7223317953E41 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8142A4C019EE0003586A95199C88A7 /* UIStoryboardExtension.swift */; };
-		C7718A16C5D021CC1E89E7697AFAECD8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5524487C2DCBF98B4A72FF4EEA9326 /* StringExtension.swift */; };
-		C901E835FBD23E5E76A9C1EB3F5DCCE3 /* AwesomeMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8E4BDB957BE51CA3199857D054C462 /* AwesomeMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D69CBF16C8DB98B85532DEB04EC63A48 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E34BA640F98760B6CD47811C946F /* UITextViewExtension.swift */; };
+		C26B66BBAB16B7857EB36E0465476371 /* RadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD46D562FB8781A24A7AFBA0CFF664 /* RadioGroupCell.swift */; };
+		C45FC4DF26BA390BA8A952C0BAE0A4EA /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB60A262426834ED0E31012A3DAAB2D /* CGSizeExtension.swift */; };
+		C68A3F2679258E9C1043B47C1D3668B4 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE1EDE2CB1F7A1CA7B221181F2214A /* FirebaseHelper.swift */; };
+		CCEB5ACCD0BB375EEC2F751F8164A5FC /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C5792724D4F4E6BF23A2D89C648BC /* UIStoryboardExtension.swift */; };
+		D68DB489716EC49E3F77C5B1A95F6B7D /* LoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB100E2CB9940542D2EB06312E7C3663 /* LoadMoreTableViewCell.xib */; };
+		DB08918725BB480DF5E7685F3D96EA8F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24210EEE6CBB2518BA9DF89F31B5C84A /* BaseViewController.swift */; };
 		E4C0EE056D2CFB63EA36CCB41A19C4B8 /* Pods-AwesomeMVVM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF76C4BE252E707341F7AD10D2DD0 /* Pods-AwesomeMVVM_Tests-dummy.m */; };
-		ED50D0B80D7C36673B8B159A38275D90 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06B86A44D550DD5497F0DC6CEABC82 /* Repository.swift */; };
-		F356DF99E40594A8A673AA81531EE0B9 /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0B6B47BFD3F9759D75C3B86F8916 /* LanguageHelper.swift */; };
-		F39655BB4040BCB56CB907C10EEA72D4 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D02055F024FF4A96732A6B00917BA4F /* CGSizeExtension.swift */; };
-		F5F3A012D2A4BE8C369BD9D30573FEB3 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4814AFC4B42349A4C5DEF4545084F252 /* ViewControllerExtension.swift */; };
-		FC0EC3796DEC756F3B6D9EB211115280 /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505D4855EA62291338089A04CA58D5D /* LoadMoreTableViewCell.swift */; };
+		E9579326F763CCA3AB1070472D776B4B /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4B918E294A692DF48724F3DB7B648 /* AwesomeTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,92 +55,86 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 511E0D625EC7B0DC51E0133C08399BBF;
+			remoteGlobalIDString = D0BC977703A3BEFC99EDAE32506A29A3;
 			remoteInfo = AwesomeMVVM;
 		};
-		EBD3C30FFDC576CCEEC8E62F0A5E2716 /* PBXContainerItemProxy */ = {
+		FAF99781F54DB582D8EFF38D50022362 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E39C4C1724D0D13EADDA4C3214A39191;
+			remoteGlobalIDString = A6C7D02C866507A6D198FEC184311459;
 			remoteInfo = "AwesomeMVVM-AwesomeMVVM";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06BB045BF1FCE5EFB13B554D547A5387 /* Pods-AwesomeMVVM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Tests-resources.sh"; sourceTree = "<group>"; };
-		097CD582D85EE63256E8F996232EAFD4 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		0B20DD9B8350E4044141943985A4CC91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6201F672C88C5DDB0B64B943C2F044 /* Pods-AwesomeMVVM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeMVVM_Tests-umbrella.h"; sourceTree = "<group>"; };
-		11ADA603C4717AE34C429320F9B71D56 /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		160E0B6B47BFD3F9759D75C3B86F8916 /* LanguageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
-		21F1E34BA640F98760B6CD47811C946F /* UITextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
-		22A70DD3C6F3DE7222EB075C920A612A /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
-		2AFDE9BE5A3394A4DC891294A4D1F6F2 /* UISliderExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISliderExtension.swift; sourceTree = "<group>"; };
-		2C8E8DD68BEBE3DF872B0DA86A45C698 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		38C2873797538781CFA4CBC7FAD76463 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0D9EA063073C4D1B191BD1F5775D77AD /* LanguageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		11ADA603C4717AE34C429320F9B71D56 /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Example.framework; path = "Pods-AwesomeMVVM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24210EEE6CBB2518BA9DF89F31B5C84A /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27DCFEB1B050542C58A672F5243A2F0B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		32BF97A1A8D7BE7FC38C078FAEF83AB6 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		369C5792724D4F4E6BF23A2D89C648BC /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		467C0B3C2ADE1C0B6EECBC1160B2A443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46BB253E722C38327AC7A3FA6349F0B7 /* FirebaseHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
-		4814AFC4B42349A4C5DEF4545084F252 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		4A5AF1A331B5DDD773E1A7E75DFE4D0C /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		4B64A8A0D353080C6B057B44354D2AB3 /* Pods-AwesomeMVVM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4E85D8734A78CF4A1F131D5AAC6A6AB1 /* RadioGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
+		4CDBC7D5380864442C144C6A27855CD9 /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		4E8E4BDB957BE51CA3199857D054C462 /* AwesomeMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-umbrella.h"; sourceTree = "<group>"; };
 		57F8734C489F6D51C06858428CD60D80 /* Pods-AwesomeMVVM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeMVVM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5856D41C1EF85878C078020EB72CD688 /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
+		58F4B918E294A692DF48724F3DB7B648 /* AwesomeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
 		5929C5B09176E797E2081673C06F2E39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EB118B5E21E243A7556746D8B78DABF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		65B75F142342ED05137569ECCA020834 /* LoadingOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67C0E0B1B36B95F262DEB3D2EF629B97 /* Pods-AwesomeMVVM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6D02055F024FF4A96732A6B00917BA4F /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
-		747EAB9D8F944186448E003D5D39E37A /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
 		77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeMVVM.xcconfig; sourceTree = "<group>"; };
 		7B925A27B3A5433A43600817C35B6220 /* Pods-AwesomeMVVM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeMVVM_Example-umbrella.h"; sourceTree = "<group>"; };
-		82BC0CE8725A818CA081915DF441E340 /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		8505D4855EA62291338089A04CA58D5D /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
+		7F41CD9F2B8CFC51979B9A16B56E04AE /* ViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		85655C2492C096FBAE674A6C7F056EF3 /* Pods-AwesomeMVVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		865F35E4C9AA52B3DDC5A35EF453721B /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8725049ADB34FDA0096589C9C6FDAAAE /* UISearchBarExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
+		865F35E4C9AA52B3DDC5A35EF453721B /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeMVVM.framework; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C063A227B687DC6C3D0F0DD6D8783 /* Pods-AwesomeMVVM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeMVVM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A811CED1E65F8683D9B0EC61D75503B /* Pods-AwesomeMVVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BFFF76C4BE252E707341F7AD10D2DD0 /* Pods-AwesomeMVVM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8ECD46D562FB8781A24A7AFBA0CFF664 /* RadioGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
+		8ED1098A34C8C63E4B38C746C9345949 /* AppExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C544E6F5C81DD2DFDD8B52FED80D7E0 /* Pods-AwesomeMVVM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeMVVM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E6A11C5A098D357255D4914122D1392 /* AppConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		A0D99EF40018BD129C11E5118FA31802 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A53D1C49EEF775628236DBCCC4FEAAA1 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		A672072FAF3DFF3639D8413D877570CE /* ResourceBundle-AwesomeMVVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AwesomeMVVM-Info.plist"; sourceTree = "<group>"; };
 		A95C9C2267B6B965473A27E0C8AD97B8 /* AwesomeMVVM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-prefix.pch"; sourceTree = "<group>"; };
-		AB5524487C2DCBF98B4A72FF4EEA9326 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		AC0AE9FB42A079B6502E95B64D68F5BC /* AwesomeMVVM.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeMVVM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
+		AC0AE9FB42A079B6502E95B64D68F5BC /* AwesomeMVVM.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AwesomeMVVM.bundle; path = AwesomeMVVM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B249DB4F674C1AFBDDBF0FC9B26F679B /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
+		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
 		BB635589E35272306AD887771D2FCA97 /* Pods-AwesomeMVVM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEC02F14D2EC4BDAECEED3551423AC01 /* Pods-AwesomeMVVM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Example-dummy.m"; sourceTree = "<group>"; };
+		BFB60A262426834ED0E31012A3DAAB2D /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		C070F3BA254C01C9A76B7C13E3B75E2A /* UISliderExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISliderExtension.swift; sourceTree = "<group>"; };
+		C1849A54CE9A7735EAAB63CB57E32360 /* UINavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 		C51D7CE7C81737E869016E8854902993 /* Pods-AwesomeMVVM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeMVVM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8567872FBEF7A554E016E3610979C89 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		C976C797EB7784B2689562CF4C8F5F5F /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		CB7A93C49CD6D74060FE867B903C6920 /* Pods-AwesomeMVVM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CC78CF8E0E5275707C992EEE3482E250 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		CFB5B0DC683B300639AF38248D6B82EF /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D340775F8FEC34F0C6209AB1747EA3F6 /* AppConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		D7C16B1C57D1960D36440AFD43884B8A /* UserDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultHandler.swift; sourceTree = "<group>"; };
 		D99A5ACF6586C1A7003C99F9CD3A512B /* Pods-AwesomeMVVM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Example-resources.sh"; sourceTree = "<group>"; };
-		DAF14F071DEEB754BCEE29418AE4133D /* AwesomeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
-		DC06B86A44D550DD5497F0DC6CEABC82 /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		DCFCC042C175640960EEA681AD825DF2 /* AppExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
-		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
-		E9F799DA8DD5ABB37467691687C8648B /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC598B664B47BB176763EFD0D6101B96 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
-		EC8DC6878A769858058A5D0A5A120552 /* CheckedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckedButton.swift; sourceTree = "<group>"; };
-		EDB16D91E7DD1AB51AB6B85DF593BF34 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
-		EEABB80FED34D80AD8A3F34070522F57 /* UserDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultHandler.swift; sourceTree = "<group>"; };
-		EF8142A4C019EE0003586A95199C88A7 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
-		FA7D3D90FECCCCF535B587027ABDA27D /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
+		E495A6B04242FD2D104AFA023CCB3242 /* CheckedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckedButton.swift; sourceTree = "<group>"; };
+		E4DE1EDE2CB1F7A1CA7B221181F2214A /* FirebaseHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		E9F799DA8DD5ABB37467691687C8648B /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Tests.framework; path = "Pods-AwesomeMVVM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4825BC3D969F24486768A32439C5BB /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		EA516AD981D3CB47A6E8D83348826352 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		EB100E2CB9940542D2EB06312E7C3663 /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
+		EBB021C4118D970129C87D720768B1CB /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		EC598B664B47BB176763EFD0D6101B96 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
+		EF404C2BDFF4D53E467DEACF8F20DC1B /* UITextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		F3E7C620E029889C797818E8B90C95B6 /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		FABDC87595DD5E5373CD9E1E4D67F746 /* AwesomeMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeMVVM-dummy.m"; sourceTree = "<group>"; };
-		FB96DADFA9DE28A09329E6C2D3BB6962 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		FF9BBD4251712960F936B57710284A3D /* UINavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		121743D413514DB87FD0277224351C24 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52ACF5BD3639A0C1F82EB93F47055654 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,34 +151,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62FF4AD0E80C128C968F7AA04E3EC603 /* Frameworks */ = {
+		9EB0B83F7F0F6F1B3DE0AA139E6B6D94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3460647064C1456ABADB5CF3DCC7E4 /* Foundation.framework in Frameworks */,
+				610C94078890B19B07A797C130D3875B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27CDC42FA35F56A81FCB8CB41F9297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BDDF26CF02EFD66843D480829D7E0EC /* Assets */ = {
+		175A189561F52F898D7C5BE9138E39C9 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				22A70DD3C6F3DE7222EB075C920A612A /* LoadMoreTableViewCell.xib */,
+				58F4B918E294A692DF48724F3DB7B648 /* AwesomeTextField.swift */,
+				E495A6B04242FD2D104AFA023CCB3242 /* CheckedButton.swift */,
+				5856D41C1EF85878C078020EB72CD688 /* LoadMoreTableViewCell.swift */,
+				B249DB4F674C1AFBDDBF0FC9B26F679B /* RadioGroup.swift */,
+				8ECD46D562FB8781A24A7AFBA0CFF664 /* RadioGroupCell.swift */,
 			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		202C8669937C335909DB97DDF630E028 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F430DEC934C969E5EA6DDC3E1F5DD00E /* Base */,
-				4EC0EB4004C479F562B488B6BC81C917 /* CustomView */,
-				4DCD58B40D9AF03F1412340F6F8A8994 /* Extension */,
-				7DE063D23F23B2A531163DD8CD415022 /* Handler */,
-			);
-			path = Classes;
+			name = CustomView;
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		3ED10EF7B3DE869B25FE68CB304D266A /* AwesomeMVVM */ = {
@@ -197,40 +193,29 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4DCD58B40D9AF03F1412340F6F8A8994 /* Extension */ = {
+		41D0B1BED8286829FC7F9CC70DD9890A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DCFCC042C175640960EEA681AD825DF2 /* AppExtension.swift */,
-				6D02055F024FF4A96732A6B00917BA4F /* CGSizeExtension.swift */,
-				AB5524487C2DCBF98B4A72FF4EEA9326 /* StringExtension.swift */,
-				EDB16D91E7DD1AB51AB6B85DF593BF34 /* UICollectionViewExtension.swift */,
-				2C8E8DD68BEBE3DF872B0DA86A45C698 /* UIColorExtension.swift */,
-				CC78CF8E0E5275707C992EEE3482E250 /* UIImageViewExtension.swift */,
-				FF9BBD4251712960F936B57710284A3D /* UINavigationExtension.swift */,
-				8725049ADB34FDA0096589C9C6FDAAAE /* UISearchBarExtension.swift */,
-				2AFDE9BE5A3394A4DC891294A4D1F6F2 /* UISliderExtension.swift */,
-				EF8142A4C019EE0003586A95199C88A7 /* UIStoryboardExtension.swift */,
-				82BC0CE8725A818CA081915DF441E340 /* UITableViewExtension.swift */,
-				FB96DADFA9DE28A09329E6C2D3BB6962 /* UITextFieldExtension.swift */,
-				21F1E34BA640F98760B6CD47811C946F /* UITextViewExtension.swift */,
-				5EB118B5E21E243A7556746D8B78DABF /* UIViewControllerExtension.swift */,
-				097CD582D85EE63256E8F996232EAFD4 /* UIViewExtension.swift */,
-				FA7D3D90FECCCCF535B587027ABDA27D /* UserDefaultsExtension.swift */,
-				4814AFC4B42349A4C5DEF4545084F252 /* ViewControllerExtension.swift */,
+				8ED1098A34C8C63E4B38C746C9345949 /* AppExtension.swift */,
+				BFB60A262426834ED0E31012A3DAAB2D /* CGSizeExtension.swift */,
+				4A5AF1A331B5DDD773E1A7E75DFE4D0C /* StringExtension.swift */,
+				C976C797EB7784B2689562CF4C8F5F5F /* UICollectionViewExtension.swift */,
+				EA516AD981D3CB47A6E8D83348826352 /* UIColorExtension.swift */,
+				27DCFEB1B050542C58A672F5243A2F0B /* UIImageViewExtension.swift */,
+				C1849A54CE9A7735EAAB63CB57E32360 /* UINavigationExtension.swift */,
+				A53D1C49EEF775628236DBCCC4FEAAA1 /* UISearchBarExtension.swift */,
+				C070F3BA254C01C9A76B7C13E3B75E2A /* UISliderExtension.swift */,
+				369C5792724D4F4E6BF23A2D89C648BC /* UIStoryboardExtension.swift */,
+				4CDBC7D5380864442C144C6A27855CD9 /* UITableViewExtension.swift */,
+				EBB021C4118D970129C87D720768B1CB /* UITextFieldExtension.swift */,
+				EF404C2BDFF4D53E467DEACF8F20DC1B /* UITextViewExtension.swift */,
+				C8567872FBEF7A554E016E3610979C89 /* UIViewControllerExtension.swift */,
+				32BF97A1A8D7BE7FC38C078FAEF83AB6 /* UIViewExtension.swift */,
+				EA4825BC3D969F24486768A32439C5BB /* UserDefaultsExtension.swift */,
+				7F41CD9F2B8CFC51979B9A16B56E04AE /* ViewControllerExtension.swift */,
 			);
+			name = Extension;
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		4EC0EB4004C479F562B488B6BC81C917 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-				DAF14F071DEEB754BCEE29418AE4133D /* AwesomeTextField.swift */,
-				EC8DC6878A769858058A5D0A5A120552 /* CheckedButton.swift */,
-				8505D4855EA62291338089A04CA58D5D /* LoadMoreTableViewCell.swift */,
-				747EAB9D8F944186448E003D5D39E37A /* RadioGroup.swift */,
-				4E85D8734A78CF4A1F131D5AAC6A6AB1 /* RadioGroupCell.swift */,
-			);
-			path = CustomView;
 			sourceTree = "<group>";
 		};
 		500F735E01D7F251816198E5FD58D836 /* Products */ = {
@@ -265,7 +250,7 @@
 		72DBAE46F2057F5D10E2743D8E74E327 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CA15C8128045C87AD3C5A3F9C6460D1D /* AwesomeMVVM */,
+				86FF42ABE37DD4D681921451D3FB30D4 /* AwesomeMVVM */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -281,14 +266,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		7DE063D23F23B2A531163DD8CD415022 /* Handler */ = {
+		86FF42ABE37DD4D681921451D3FB30D4 /* AwesomeMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				46BB253E722C38327AC7A3FA6349F0B7 /* FirebaseHelper.swift */,
-				160E0B6B47BFD3F9759D75C3B86F8916 /* LanguageHelper.swift */,
-				EEABB80FED34D80AD8A3F34070522F57 /* UserDefaultHandler.swift */,
+				BD9E7146E3BE4993A64A4E8B15DD01ED /* Assets */,
 			);
-			path = Handler;
+			name = AwesomeMVVM;
+			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
 		909689AAF868A19516835990998CD0CF /* Pods-AwesomeMVVM_Example */ = {
@@ -312,8 +296,9 @@
 		9CB18ABCA3AB3307D364418F3798152C /* AwesomeMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				202C8669937C335909DB97DDF630E028 /* Classes */,
+				E4C1E42D72505DEC709F88DA117107A7 /* Classes */,
 			);
+			name = AwesomeMVVM;
 			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
@@ -357,12 +342,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA15C8128045C87AD3C5A3F9C6460D1D /* AwesomeMVVM */ = {
+		BD9E7146E3BE4993A64A4E8B15DD01ED /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1BDDF26CF02EFD66843D480829D7E0EC /* Assets */,
+				EB100E2CB9940542D2EB06312E7C3663 /* LoadMoreTableViewCell.xib */,
 			);
-			path = AwesomeMVVM;
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CD16D18FD9232280863DC8A36555AE12 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				E4DE1EDE2CB1F7A1CA7B221181F2214A /* FirebaseHelper.swift */,
+				0D9EA063073C4D1B191BD1F5775D77AD /* LanguageHelper.swift */,
+				D7C16B1C57D1960D36440AFD43884B8A /* UserDefaultHandler.swift */,
+			);
+			name = Handler;
+			path = Handler;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -373,15 +370,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F430DEC934C969E5EA6DDC3E1F5DD00E /* Base */ = {
+		D99032FF760BF655B4D08C3486A67247 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				9E6A11C5A098D357255D4914122D1392 /* AppConstant.swift */,
-				38C2873797538781CFA4CBC7FAD76463 /* BaseViewController.swift */,
-				CFB5B0DC683B300639AF38248D6B82EF /* Coordinator.swift */,
-				DC06B86A44D550DD5497F0DC6CEABC82 /* Repository.swift */,
+				D340775F8FEC34F0C6209AB1747EA3F6 /* AppConstant.swift */,
+				24210EEE6CBB2518BA9DF89F31B5C84A /* BaseViewController.swift */,
+				A0D99EF40018BD129C11E5118FA31802 /* Coordinator.swift */,
+				65B75F142342ED05137569ECCA020834 /* LoadingOverlay.swift */,
+				F3E7C620E029889C797818E8B90C95B6 /* Repository.swift */,
 			);
+			name = Base;
 			path = Base;
+			sourceTree = "<group>";
+		};
+		E4C1E42D72505DEC709F88DA117107A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D99032FF760BF655B4D08C3486A67247 /* Base */,
+				175A189561F52F898D7C5BE9138E39C9 /* CustomView */,
+				41D0B1BED8286829FC7F9CC70DD9890A /* Extension */,
+				CD16D18FD9232280863DC8A36555AE12 /* Handler */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,14 +406,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BD0C0E5F8B4A012E4B362D91BB74D25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C901E835FBD23E5E76A9C1EB3F5DCCE3 /* AwesomeMVVM-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79F50B60201E8DAA7CFEBD07958EB5AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,28 +414,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A50B26C0F7CB40624BEC4CA962CEB2B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FE5B6B1BBB277DA92A09DA34A48DC8 /* AwesomeMVVM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		511E0D625EC7B0DC51E0133C08399BBF /* AwesomeMVVM */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BB0DBCF21BF243295913EB06951158D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */;
-			buildPhases = (
-				7B36C794DEF1AF171884631422E3F0E3 /* Sources */,
-				62FF4AD0E80C128C968F7AA04E3EC603 /* Frameworks */,
-				68CFE25E90083F225D7427593E8FCF0A /* Resources */,
-				2BD0C0E5F8B4A012E4B362D91BB74D25 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E86B34BDEC72EF7053CB5B8BC0E4E0FF /* PBXTargetDependency */,
-			);
-			name = AwesomeMVVM;
-			productName = AwesomeMVVM;
-			productReference = 865F35E4C9AA52B3DDC5A35EF453721B /* AwesomeMVVM.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		677A2DEC047CDA68315B6F0628AF8E81 /* Pods-AwesomeMVVM_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5615492FFB55CD855AEE3F8BF6005A68 /* Build configuration list for PBXNativeTarget "Pods-AwesomeMVVM_Example" */;
@@ -468,13 +460,13 @@
 			productReference = E9F799DA8DD5ABB37467691687C8648B /* Pods_AwesomeMVVM_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E39C4C1724D0D13EADDA4C3214A39191 /* AwesomeMVVM-AwesomeMVVM */ = {
+		A6C7D02C866507A6D198FEC184311459 /* AwesomeMVVM-AwesomeMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D6382FF9CC5C7EA5FA17CA2EFFBAE8 /* Build configuration list for PBXNativeTarget "AwesomeMVVM-AwesomeMVVM" */;
+			buildConfigurationList = 8477A43E046A473DB4824329626442A2 /* Build configuration list for PBXNativeTarget "AwesomeMVVM-AwesomeMVVM" */;
 			buildPhases = (
-				EFAA389E8CF0DA8A31463906045CB16B /* Sources */,
-				121743D413514DB87FD0277224351C24 /* Frameworks */,
-				37C7356E45AAA548DC81FD1928EFE385 /* Resources */,
+				479356AB0D0A701B892E5CE0E152DC9B /* Sources */,
+				F27CDC42FA35F56A81FCB8CB41F9297A /* Frameworks */,
+				4288712D867BE213F8EFC6E12468E3BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -484,6 +476,25 @@
 			productName = "AwesomeMVVM-AwesomeMVVM";
 			productReference = AC0AE9FB42A079B6502E95B64D68F5BC /* AwesomeMVVM.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		D0BC977703A3BEFC99EDAE32506A29A3 /* AwesomeMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012A89A118C58F2BBBDF1D5B6CF7487D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */;
+			buildPhases = (
+				6C0981C2E57750E3DE90C0D39D1A12DC /* Sources */,
+				9EB0B83F7F0F6F1B3DE0AA139E6B6D94 /* Frameworks */,
+				EBB167609E09D6980B3EC6219F8E1FD2 /* Resources */,
+				A50B26C0F7CB40624BEC4CA962CEB2B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC4366AA8B73E0882E77BD367B86602 /* PBXTargetDependency */,
+			);
+			name = AwesomeMVVM;
+			productName = AwesomeMVVM;
+			productReference = 865F35E4C9AA52B3DDC5A35EF453721B /* AwesomeMVVM.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -506,8 +517,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				511E0D625EC7B0DC51E0133C08399BBF /* AwesomeMVVM */,
-				E39C4C1724D0D13EADDA4C3214A39191 /* AwesomeMVVM-AwesomeMVVM */,
+				D0BC977703A3BEFC99EDAE32506A29A3 /* AwesomeMVVM */,
+				A6C7D02C866507A6D198FEC184311459 /* AwesomeMVVM-AwesomeMVVM */,
 				677A2DEC047CDA68315B6F0628AF8E81 /* Pods-AwesomeMVVM_Example */,
 				79687708ACE727D4563DE97FC8953B78 /* Pods-AwesomeMVVM_Tests */,
 			);
@@ -515,19 +526,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37C7356E45AAA548DC81FD1928EFE385 /* Resources */ = {
+		4288712D867BE213F8EFC6E12468E3BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68CFE25E90083F225D7427593E8FCF0A /* Resources */ = {
+		EBB167609E09D6980B3EC6219F8E1FD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC27D740304C4F831B39A20BCBF30EB7 /* AwesomeMVVM.bundle in Resources */,
-				1FD41CDE399B3E67BF9A71D7C9E62363 /* LoadMoreTableViewCell.xib in Resources */,
+				1109D2E44195652B19DA055BA45DDA0D /* AwesomeMVVM.bundle in Resources */,
+				D68DB489716EC49E3F77C5B1A95F6B7D /* LoadMoreTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,47 +553,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B36C794DEF1AF171884631422E3F0E3 /* Sources */ = {
+		479356AB0D0A701B892E5CE0E152DC9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AC385F9BB4DD0E4BE88C0B4E1A4906 /* AppConstant.swift in Sources */,
-				425EF0E47379C713D898276018B894DC /* AppExtension.swift in Sources */,
-				1A55A69BF2EDCC7668CB64C2FEF053B7 /* AwesomeMVVM-dummy.m in Sources */,
-				588C7B6C1F6303A4727A21E605212331 /* AwesomeTextField.swift in Sources */,
-				37FCB3DA5CD653898726F8E9F56B1377 /* BaseViewController.swift in Sources */,
-				F39655BB4040BCB56CB907C10EEA72D4 /* CGSizeExtension.swift in Sources */,
-				A18981A07B7AA9F16FB9F2D2C175D48A /* CheckedButton.swift in Sources */,
-				BFB07B56B24944223AB6C600854B253B /* Coordinator.swift in Sources */,
-				7AA3397CD20396CA9595E368C899DF77 /* FirebaseHelper.swift in Sources */,
-				F356DF99E40594A8A673AA81531EE0B9 /* LanguageHelper.swift in Sources */,
-				FC0EC3796DEC756F3B6D9EB211115280 /* LoadMoreTableViewCell.swift in Sources */,
-				439B373C2022F16D820A47795F1380D4 /* RadioGroup.swift in Sources */,
-				4A1B3D8A6AE4BD199380D6CB525FD46B /* RadioGroupCell.swift in Sources */,
-				ED50D0B80D7C36673B8B159A38275D90 /* Repository.swift in Sources */,
-				C7718A16C5D021CC1E89E7697AFAECD8 /* StringExtension.swift in Sources */,
-				20C2BC44C6BB7B43DDB73FA0F190E14F /* UICollectionViewExtension.swift in Sources */,
-				2571D0BED66A4DA1E7FD4CBE91693A49 /* UIColorExtension.swift in Sources */,
-				24C4ED018172E75902866E4240EEC8C0 /* UIImageViewExtension.swift in Sources */,
-				206E4CD802BE676658D1653F9EF9F63A /* UINavigationExtension.swift in Sources */,
-				53D811071C02CFDF62AB04AAACCFF739 /* UISearchBarExtension.swift in Sources */,
-				163399B3F34CC32D407FD66C04637BB4 /* UISliderExtension.swift in Sources */,
-				C704D2A9844D1A8F7BB7223317953E41 /* UIStoryboardExtension.swift in Sources */,
-				3B8AC430DB6029AF297F437075BEFDB7 /* UITableViewExtension.swift in Sources */,
-				726FE3AA1186338D87E57FC51192BCD5 /* UITextFieldExtension.swift in Sources */,
-				D69CBF16C8DB98B85532DEB04EC63A48 /* UITextViewExtension.swift in Sources */,
-				030DC1B4343AC9056A344630B65F88C0 /* UIViewControllerExtension.swift in Sources */,
-				3E0C3C59AED5F33D9ECB6E1EA1A5D8D2 /* UIViewExtension.swift in Sources */,
-				7085EB45F7E09AC5E64A32E36EFECC61 /* UserDefaultHandler.swift in Sources */,
-				C5098EF66F25D3400D2FE13225F5C0FA /* UserDefaultsExtension.swift in Sources */,
-				F5F3A012D2A4BE8C369BD9D30573FEB3 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFAA389E8CF0DA8A31463906045CB16B /* Sources */ = {
+		6C0981C2E57750E3DE90C0D39D1A12DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638A1CE90CC8D7202150D079328EC2E6 /* AppConstant.swift in Sources */,
+				4E44527303ABA782437123C4F0F9D51C /* AppExtension.swift in Sources */,
+				507FF098D4145FD4E8513B75C22B569A /* AwesomeMVVM-dummy.m in Sources */,
+				E9579326F763CCA3AB1070472D776B4B /* AwesomeTextField.swift in Sources */,
+				DB08918725BB480DF5E7685F3D96EA8F /* BaseViewController.swift in Sources */,
+				C45FC4DF26BA390BA8A952C0BAE0A4EA /* CGSizeExtension.swift in Sources */,
+				61799D59434A665B01B92E9543E3BCC8 /* CheckedButton.swift in Sources */,
+				A3D4704943F373ADC6373778FA24E28A /* Coordinator.swift in Sources */,
+				C68A3F2679258E9C1043B47C1D3668B4 /* FirebaseHelper.swift in Sources */,
+				180A8A9F3BD31D49BC066F2B03C965B6 /* LanguageHelper.swift in Sources */,
+				84F3368BD5ACFE58F785F5354BBC526A /* LoadingOverlay.swift in Sources */,
+				12DCDD42CCBC9425D6B7147B00CBE979 /* LoadMoreTableViewCell.swift in Sources */,
+				8B7DD584C16F1DD16225C625CFBC3714 /* RadioGroup.swift in Sources */,
+				C26B66BBAB16B7857EB36E0465476371 /* RadioGroupCell.swift in Sources */,
+				7858F2ABC61AE23EE9F90ABF584D301C /* Repository.swift in Sources */,
+				2D45B9412736A466CEA56933A9F64421 /* StringExtension.swift in Sources */,
+				A71C1499FB89DB6ACE761E3CF30C9D52 /* UICollectionViewExtension.swift in Sources */,
+				1A586F175A0B8381AD60D7AC1ED49C39 /* UIColorExtension.swift in Sources */,
+				961CA214906632DEA8DD632BEEF22BC8 /* UIImageViewExtension.swift in Sources */,
+				5F0C9A85727C6CE22BF2AAC7DD1494B8 /* UINavigationExtension.swift in Sources */,
+				5FAF36A8CA9F300826BCF2E997C023FA /* UISearchBarExtension.swift in Sources */,
+				932CDA70A4DA9D571C144F323ABF321A /* UISliderExtension.swift in Sources */,
+				CCEB5ACCD0BB375EEC2F751F8164A5FC /* UIStoryboardExtension.swift in Sources */,
+				75873958F48E716D765A273AACFC1DF2 /* UITableViewExtension.swift in Sources */,
+				AD8A90BF7DE2F7DBF97EE216270BB860 /* UITextFieldExtension.swift in Sources */,
+				16DBA2C38D1E70230EAA0AF27DE6590A /* UITextViewExtension.swift in Sources */,
+				7326F10E58FF0E17666D0382125FAA54 /* UIViewControllerExtension.swift in Sources */,
+				98CE7BD315A49DF255CE97FF71C77405 /* UIViewExtension.swift in Sources */,
+				2F62C475D2C8DE054035D18E23B56785 /* UserDefaultHandler.swift in Sources */,
+				05E19CD02186C9B2ADDDDB1FFA4C0965 /* UserDefaultsExtension.swift in Sources */,
+				A148DFF42054ED3CE6C2AAA6E62CCA16 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,21 +609,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AC4366AA8B73E0882E77BD367B86602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AwesomeMVVM-AwesomeMVVM";
+			target = A6C7D02C866507A6D198FEC184311459 /* AwesomeMVVM-AwesomeMVVM */;
+			targetProxy = FAF99781F54DB582D8EFF38D50022362 /* PBXContainerItemProxy */;
+		};
 		39B76B509749A18AEA6226CBD30C63E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AwesomeMVVM;
-			target = 511E0D625EC7B0DC51E0133C08399BBF /* AwesomeMVVM */;
+			target = D0BC977703A3BEFC99EDAE32506A29A3 /* AwesomeMVVM */;
 			targetProxy = 9811FC38221822B2C4AFAB713928893B /* PBXContainerItemProxy */;
-		};
-		E86B34BDEC72EF7053CB5B8BC0E4E0FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AwesomeMVVM-AwesomeMVVM";
-			target = E39C4C1724D0D13EADDA4C3214A39191 /* AwesomeMVVM-AwesomeMVVM */;
-			targetProxy = EBD3C30FFDC576CCEEC8E62F0A5E2716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		12F9D604B32A90CB8548F9E07DD2F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C0E0B1B36B95F262DEB3D2EF629B97 /* Pods-AwesomeMVVM_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Example/Pods-AwesomeMVVM_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AwesomeMVVM_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,13 +707,12 @@
 			};
 			name = Release;
 		};
-		241A2E0863366F501441112A8586E076 /* Release */ = {
+		2D16E914831DEEB36A061051C8C8BA85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeMVVM";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/ResourceBundle-AwesomeMVVM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -674,44 +724,7 @@
 			};
 			name = Release;
 		};
-		34F1E2FE140D4A65C824017706C7DE6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85655C2492C096FBAE674A6C7F056EF3 /* Pods-AwesomeMVVM_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AwesomeMVVM_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D1D5CC4D83F057FD13406456DFC752F /* Release */ = {
+		884F42A27D28B95D079735F2D410C610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
 			buildSettings = {
@@ -719,14 +732,14 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
@@ -734,56 +747,37 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = AwesomeMVVM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70ABE748616A1A405EF5F98398C15F31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A811CED1E65F8683D9B0EC61D75503B /* Pods-AwesomeMVVM_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AwesomeMVVM_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AB0AB8A41A0EB6217BDA2421057BDE39 /* Debug */ = {
+		B97BEB18F39C5AC34BFEC535AF9A5CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/ResourceBundle-AwesomeMVVM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = AwesomeMVVM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C58389D782479B99D1D3D20EBFF0B29A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB635589E35272306AD887771D2FCA97 /* Pods-AwesomeMVVM_Example.debug.xcconfig */;
 			buildSettings = {
@@ -791,6 +785,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -798,7 +793,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -823,32 +817,52 @@
 			};
 			name = Debug;
 		};
-		C9495C924AB5EC94D450137C831D3D47 /* Debug */ = {
+		D17DEF5A8783837EA70928F6A1C1A006 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeMVVM";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/ResourceBundle-AwesomeMVVM-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = AwesomeMVVM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CE3822B8EA3912137DF129BE11886013 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
+			baseConfigurationReference = 85655C2492C096FBAE674A6C7F056EF3 /* Pods-AwesomeMVVM_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AwesomeMVVM_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D57517ACC778DD1EFAB526E788CEA8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A811CED1E65F8683D9B0EC61D75503B /* Pods-AwesomeMVVM_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -856,21 +870,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Tests/Pods-AwesomeMVVM_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AwesomeMVVM;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AwesomeMVVM_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -925,14 +939,15 @@
 			};
 			name = Debug;
 		};
-		DBFBA6C039BAE284CC3904EEDF30B2A3 /* Release */ = {
+		E0C62806B97858755B645D792267C151 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67C0E0B1B36B95F262DEB3D2EF629B97 /* Pods-AwesomeMVVM_Example.release.xcconfig */;
+			baseConfigurationReference = 77C42A43E501588A91D6C907EF02A22D /* AwesomeMVVM.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -940,20 +955,15 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$PODS_CONFIGURATION_BUILD_DIR/**";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeMVVM_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeMVVM/AwesomeMVVM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeMVVM/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeMVVM_Example/Pods-AwesomeMVVM_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/AwesomeMVVM/AwesomeMVVM.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AwesomeMVVM_Example;
+				PRODUCT_NAME = AwesomeMVVM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -967,6 +977,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		012A89A118C58F2BBBDF1D5B6CF7487D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884F42A27D28B95D079735F2D410C610 /* Debug */,
+				E0C62806B97858755B645D792267C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -979,26 +998,17 @@
 		5615492FFB55CD855AEE3F8BF6005A68 /* Build configuration list for PBXNativeTarget "Pods-AwesomeMVVM_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB0AB8A41A0EB6217BDA2421057BDE39 /* Debug */,
-				DBFBA6C039BAE284CC3904EEDF30B2A3 /* Release */,
+				C58389D782479B99D1D3D20EBFF0B29A /* Debug */,
+				12F9D604B32A90CB8548F9E07DD2F783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BB0DBCF21BF243295913EB06951158D /* Build configuration list for PBXNativeTarget "AwesomeMVVM" */ = {
+		8477A43E046A473DB4824329626442A2 /* Build configuration list for PBXNativeTarget "AwesomeMVVM-AwesomeMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3822B8EA3912137DF129BE11886013 /* Debug */,
-				4D1D5CC4D83F057FD13406456DFC752F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A3D6382FF9CC5C7EA5FA17CA2EFFBAE8 /* Build configuration list for PBXNativeTarget "AwesomeMVVM-AwesomeMVVM" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9495C924AB5EC94D450137C831D3D47 /* Debug */,
-				241A2E0863366F501441112A8586E076 /* Release */,
+				B97BEB18F39C5AC34BFEC535AF9A5CD9 /* Debug */,
+				2D16E914831DEEB36A061051C8C8BA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1006,8 +1016,8 @@
 		B81827D631C5C821EA29CE8C719577FE /* Build configuration list for PBXNativeTarget "Pods-AwesomeMVVM_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70ABE748616A1A405EF5F98398C15F31 /* Debug */,
-				34F1E2FE140D4A65C824017706C7DE6A /* Release */,
+				D57517ACC778DD1EFAB526E788CEA8BD /* Debug */,
+				D17DEF5A8783837EA70928F6A1C1A006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
