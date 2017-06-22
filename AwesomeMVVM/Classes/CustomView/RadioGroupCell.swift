@@ -22,22 +22,25 @@ public class RadioGroupCell: UIButton {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         //handle aciton here
-        addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(RadioGroupCell.check)))
+        addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(RadioGroupCell.groupCheck)))
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    public func check() {
-        (superview as! RadioGroup).checkItem(position: position)
-        print(position)
+    public func check(){
         isChecked = true
         setImage(checkedImage, for: .normal)
     }
     
+    func groupCheck() {
+        (superview as! RadioGroup).checkItem(position: position)
+        check()
+    }
+    
     public func uncheck() {
-        isChecked = true
+        isChecked = false
         setImage(normalImage, for: .normal)
     }
 

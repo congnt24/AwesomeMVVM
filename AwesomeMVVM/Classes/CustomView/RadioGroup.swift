@@ -11,8 +11,15 @@ import UIKit
 
 public class RadioGroup: UIStackView {
     @IBInspectable var stringData: String = ""
+    public var onValueChange: ((Int) -> Void)?
 
-    var checkedPosition = 0
+    var checkedPosition = 0 {
+        didSet {
+            if onValueChange != nil {
+                onValueChange!(checkedPosition)
+            }
+        }
+    }
     var cell: RadioGroupCell!
 
     override init(frame: CGRect) {
@@ -22,7 +29,7 @@ public class RadioGroup: UIStackView {
     required public init(coder: NSCoder) {
         super.init(coder: coder)
     }
-    
+
     override public func awakeFromNib() {
         setupRadioButton(ofArray: stringData.components(separatedBy: ";"))
     }
@@ -40,13 +47,19 @@ public class RadioGroup: UIStackView {
             addArrangedSubview(btn)
         }
     }
+
+    public func checkAt(position: Int){
+        checkedPosition = position
+        uncheckAll()
+        (subviews[position] as! RadioGroupCell).check()
+    }
     
-    public func checkItem(position: Int) {
+    func checkItem(position: Int) {
         uncheckAll()
         checkedPosition = position
     }
-    
-    private func uncheckAll(){
+
+    private func uncheckAll() {
         for btn in subviews {
             (btn as! RadioGroupCell).uncheck()
         }

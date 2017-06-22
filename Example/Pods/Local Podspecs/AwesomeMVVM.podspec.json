@@ -20,10 +20,5 @@
   },
   "source_files": "AwesomeMVVM/Classes/**/*",
   "resources": "AwesomeMVVM/Assets/*",
-  "resource_bundles": {
-    "AwesomeMVVM": [
-      "Resources/Assets/**/*.{imageset}"
-    ]
-  },
   "frameworks": "Foundation"
 }

@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import AwesomeMVVM
+import RxSwift
 
 class ViewController: UIViewController {
 

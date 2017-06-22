@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188AA6F81EFB80EA00964549 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AA6F71EFB80EA00964549 /* RadioViewController.swift */; };
 		18A160A61EF7B67200EFFC7F /* Awesome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A160A51EF7B67200EFFC7F /* Awesome.storyboard */; };
 		18C7F8CE1EFA8327001B293F /* LoadingIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C7F8CD1EFA8327001B293F /* LoadingIndicator.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		0380C83ACBEFB3FC4B9DC3EE /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AA6F71EFB80EA00964549 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
 		18A160A51EF7B67200EFFC7F /* Awesome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Awesome.storyboard; sourceTree = "<group>"; };
 		18C7F8CD1EFA8327001B293F /* LoadingIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingIndicator.xib; sourceTree = "<group>"; };
 		37C68CDC26906611788E741D /* Pods-AwesomeMVVM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeMVVM_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeMVVM_Example/Pods-AwesomeMVVM_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				188AA6F71EFB80EA00964549 /* RadioViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				18A160A51EF7B67200EFFC7F /* Awesome.storyboard */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -371,6 +374,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				188AA6F81EFB80EA00964549 /* RadioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

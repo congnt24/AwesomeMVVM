@@ -326,7 +326,7 @@
         <!--Demo-->
         <scene sceneID="bxr-ii-jvO">
             <objects>
-                <viewController title="Demo" id="fvi-lf-ShE" sceneMemberID="viewController">
+                <viewController title="Demo" id="fvi-lf-ShE" customClass="RadioViewController" customModule="AwesomeMVVM_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8UU-pD-LYM"/>
                         <viewControllerLayoutGuide type="bottom" id="tMO-up-FvZ"/>
@@ -373,6 +373,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="LpZ-gz-gWd" secondAttribute="trailing" constant="30" id="noD-La-KeG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="radioGroup" destination="LpZ-gz-gWd" id="zmp-eo-xSm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcS-hf-oFU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
