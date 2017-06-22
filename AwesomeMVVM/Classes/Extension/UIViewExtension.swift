@@ -280,18 +280,18 @@ public extension UIView {
         layer.add(animation, forKey: "shake")
         CATransaction.commit()
     }
-    
+
     ///EZSE: Shakes the view for as many number of times as given in the argument.
     public func shakeViewForTimes(_ times: Int) {
         let anim = CAKeyframeAnimation(keyPath: "transform")
         anim.values = [
-            NSValue(caTransform3D: CATransform3DMakeTranslation(-5, 0, 0 )),
-            NSValue(caTransform3D: CATransform3DMakeTranslation( 5, 0, 0 ))
+            NSValue(caTransform3D: CATransform3DMakeTranslation(-5, 0, 0)),
+            NSValue(caTransform3D: CATransform3DMakeTranslation( 5, 0, 0))
         ]
         anim.autoreverses = true
         anim.repeatCount = Float(times)
-        anim.duration = 7/100
-        
+        anim.duration = 7 / 100
+
         self.layer.add(anim, forKey: nil)
     }
 
@@ -419,28 +419,28 @@ public extension UIView {
             self.frame = CGRect(origin: value, size: self.frame.size)
         }
     }
-    
-    
+
+
     /// EZSE: Centers view in superview horizontally
     public func centerXInSuperView() {
         guard let parentView = superview else {
             assertionFailure("EZSwiftExtensions Error: The view \(self) doesn't have a superview")
             return
         }
-        
-        self.x = parentView.w/2 - self.w/2
+
+        self.x = parentView.w / 2 - self.w / 2
     }
-    
+
     /// EZSE: Centers view in superview vertically
     public func centerYInSuperView() {
         guard let parentView = superview else {
             assertionFailure("EZSwiftExtensions Error: The view \(self) doesn't have a superview")
             return
         }
-        
-        self.y = parentView.h/2 - self.h/2
+
+        self.y = parentView.h / 2 - self.h / 2
     }
-    
+
     /// EZSE: Centers view in superview horizontally & vertically
     public func centerInSuperView() {
         self.centerXInSuperView()
@@ -452,7 +452,7 @@ public extension UIView {
 public extension UIView {
     /// EZSwiftExtensions
     public func drawCircle(fillColor: UIColor, strokeColor: UIColor, strokeWidth: CGFloat) {
-        let path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: self.w, height: self.w), cornerRadius: self.w/2)
+        let path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: self.w, height: self.w), cornerRadius: self.w / 2)
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = path.cgPath
         shapeLayer.fillColor = fillColor.cgColor
@@ -460,9 +460,9 @@ public extension UIView {
         shapeLayer.lineWidth = strokeWidth
         self.layer.addSublayer(shapeLayer)
     }
-    
+
     public func drawStroke(width: CGFloat, color: UIColor) {
-        let path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: self.w, height: self.w), cornerRadius: self.w/2)
+        let path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: self.w, height: self.w), cornerRadius: self.w / 2)
         let shapeLayer = CAShapeLayer ()
         shapeLayer.path = path.cgPath
         shapeLayer.fillColor = UIColor.clear.cgColor
@@ -470,7 +470,7 @@ public extension UIView {
         shapeLayer.lineWidth = width
         self.layer.addSublayer(shapeLayer)
     }
-    
+
     public func toImage () -> UIImage {
         UIGraphicsBeginImageContextWithOptions(bounds.size, isOpaque, 0.0)
         drawHierarchy(in: bounds, afterScreenUpdates: false)
@@ -482,7 +482,7 @@ public extension UIView {
 
 
 extension UIView {
-    
+
     ///EZSE: Loops until it finds the top root view. //TODO: Add to readme
     func rootView() -> UIView {
         guard let parentView = superview else {
@@ -490,7 +490,7 @@ extension UIView {
         }
         return parentView.rootView()
     }
-    
+
     func copyView() -> UIView?
     {
         return NSKeyedUnarchiver.unarchiveObject(with: NSKeyedArchiver.archivedData(withRootObject: self)) as? UIView

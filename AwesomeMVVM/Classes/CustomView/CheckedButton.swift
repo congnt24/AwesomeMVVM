@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+/// Using this in storyboard, you need to set unchecked button in image field of button 
+/// and checked button in checkedImage field
+@IBDesignable
 public class CheckedButton: UIButton {
     var isChecked = false
     var normalImage: UIImage!

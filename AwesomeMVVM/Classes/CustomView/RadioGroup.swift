@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+/// Using this class as UIStackView
+/// We need to set distribution field to "fill equally"
+/// To set sample data, we set string for stringData field, each item separate by a semicolon ';'
 public class RadioGroup: UIStackView {
     @IBInspectable var stringData: String = ""
     public var onValueChange: ((Int) -> Void)?

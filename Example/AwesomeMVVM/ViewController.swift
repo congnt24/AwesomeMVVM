@@ -18,13 +18,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let loading = UINib(nibName: "LoadingIndicator", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIActivityIndicatorView
-        
-        LoadingOverlay.shared.setCustomIndicator(view: loading, startAnimation: {
-            loading.startAnimating()
-        }, stopAnimation: {
-            loading.stopAnimating()
-        })
-        
+//        
+//        LoadingOverlay.shared.setCustomIndicator(view: loading, startAnimation: {
+//            loading.startAnimating()
+//        }, stopAnimation: {
+//            loading.stopAnimating()
+//        })
+        LoadingOverlayOption.overlayColor = UIColor(hexString: "#00FFFF", transparency: 0.3)!
         LoadingOverlay.shared.showOverlay(view: view, delayToHideInMillis: 2000)
     }
 

@@ -10,7 +10,8 @@ import Foundation
 import UIKit
 /**
  A base coordinator class with some basic special variable for navigating between screens.
- 
+ Each flow, you need to create a concrete of Coordinator to handle the transition of flow
+ Ex: Sign in, sign up and forget password screen: we create a LoginCoordinator for this flow
  */
 public class Coordinator {
     //just a map to save viewcontroller, useful when you need to pop to specific screen
@@ -20,7 +21,7 @@ public class Coordinator {
     //sometime you need to change root viewcontroller
     var window: UIWindow?
     //must init storyboard in AppDelegate
-    var mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    var mainStoryboard: UIStoryboard = UIStoryboard.mainStoryboard!
 
     init(_ navigation: UINavigationController?, _ window: UIWindow? = nil) {
         self.window = window
