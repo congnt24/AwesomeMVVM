@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 open class BaseViewController: UIViewController {
     open var bag = DisposeBag()
