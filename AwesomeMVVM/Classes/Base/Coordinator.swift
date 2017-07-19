@@ -23,7 +23,7 @@ open class Coordinator {
     //must init storyboard in AppDelegate
     open var mainStoryboard: UIStoryboard = UIStoryboard.mainStoryboard!
 
-    init(_ navigation: UINavigationController?, _ window: UIWindow? = nil) {
+    public init(_ navigation: UINavigationController?, _ window: UIWindow? = nil) {
         self.window = window
         self.navigation = navigation
     }
