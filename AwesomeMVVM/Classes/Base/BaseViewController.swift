@@ -9,6 +9,7 @@
 import UIKit
 
 open class BaseViewController: UIViewController {
+    open var bag = DisposeBag()
     override open func viewDidLoad() {
         super.viewDidLoad()
         bindToViewModel()
