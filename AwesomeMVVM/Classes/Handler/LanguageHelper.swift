@@ -11,7 +11,7 @@ import UIKit
 /**
  Handle localizing string for different languages
  */
-public class LanguageHelper {
+open class LanguageHelper {
     public class func currentLanguage() -> String? {
         return UserDefaults.standard.string(forKey: AppConstant.LANGUAGE_KEY)
     }

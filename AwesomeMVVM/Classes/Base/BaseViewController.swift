@@ -8,8 +8,8 @@
 
 import UIKit
 
-public class BaseViewController: UIViewController {
-    override public func viewDidLoad() {
+open class BaseViewController: UIViewController {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         bindToViewModel()
         responseFromViewModel()

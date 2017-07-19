@@ -13,7 +13,7 @@ import UIKit
  Each flow, you need to create a concrete of Coordinator to handle the transition of flow
  Ex: Sign in, sign up and forget password screen: we create a LoginCoordinator for this flow
  */
-public class Coordinator {
+open class Coordinator {
     //just a map to save viewcontroller, useful when you need to pop to specific screen
     var coordinators = [String: Any]()
     // navigation controller to push and pop view controller

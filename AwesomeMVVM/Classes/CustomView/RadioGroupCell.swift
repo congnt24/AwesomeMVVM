@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class RadioGroupCell: UIButton {
+open class RadioGroupCell: UIButton {
     var position: Int!
     var isChecked = false
     var normalImage: UIImage!

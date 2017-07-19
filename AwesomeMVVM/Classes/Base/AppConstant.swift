@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class AppConstant {
+open class AppConstant {
     // MARK: - constant for saving value to user default
     static let LANGUAGE_KEY = "language"
     static let FIRST_TIME_KEY = "first"

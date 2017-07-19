@@ -16,7 +16,7 @@ public enum LoadingOverlayAnimation {
 }
 
 
-public class LoadingOverlayOption {
+open class LoadingOverlayOption {
     public static var overlayColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
     public static var overlayAnimation = LoadingOverlayAnimation.FADE
     public static var overlayAnimationDuration = 0.5
@@ -28,7 +28,7 @@ public class LoadingOverlayOption {
 /// Sometime you need to process a task that may take many second, you need to show a loading over the screen. So, your user can't do any action til the task is finished. That is what you need.
 /// For simple use, you only need to call LoadingOverlay.shared.showOverlay(view:)
 /// For custom indicator, your create a view file (xxx.xib) and instantiate it as UIView, then you initialize that customview for LoadingOverlay by call LoadingOverlay.setCustomIndicator(view:startAnimation:stopAnimation)
-public class LoadingOverlay {
+open class LoadingOverlay {
     var overlayView = UIView()
     lazy var loadingView: UIView = UIView()
     lazy var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
