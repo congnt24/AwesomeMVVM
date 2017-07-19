@@ -15,7 +15,7 @@ open class BaseViewController: UIViewController {
         responseFromViewModel()
     }
     /// Using to bind data to viewmodel using rxcocoa
-    public func bindToViewModel() { }
+    open func bindToViewModel() { }
     /// Subscribe the observable from viewmodel
-    public func responseFromViewModel() { }
+    open func responseFromViewModel() { }
 }
