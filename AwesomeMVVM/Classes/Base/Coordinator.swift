@@ -15,13 +15,13 @@ import UIKit
  */
 open class Coordinator {
     //just a map to save viewcontroller, useful when you need to pop to specific screen
-    var coordinators = [String: Any]()
+    open var coordinators = [String: Any]()
     // navigation controller to push and pop view controller
-    var navigation: UINavigationController?
+    open var navigation: UINavigationController?
     //sometime you need to change root viewcontroller
-    var window: UIWindow?
+    open var window: UIWindow?
     //must init storyboard in AppDelegate
-    var mainStoryboard: UIStoryboard = UIStoryboard.mainStoryboard!
+    open var mainStoryboard: UIStoryboard = UIStoryboard.mainStoryboard!
 
     init(_ navigation: UINavigationController?, _ window: UIWindow? = nil) {
         self.window = window
@@ -29,7 +29,7 @@ open class Coordinator {
     }
     
     //a function to initialize viewcontroller and viewmodel
-    public func start(_ data: Any? = nil) {
+    open func start(_ data: Any? = nil) {
         
     }
 }
