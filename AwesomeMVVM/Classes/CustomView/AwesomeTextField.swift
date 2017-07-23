@@ -15,13 +15,21 @@ enum DateFormatType: String {
 }
 
 @IBDesignable
-public class AwesomeTextField: UITextField {
+open class AwesomeTextField: UITextField {
+    
+//    @IBInspectable var labelOnTop: String = "" {
+//        didSet {
+//            
+//        }
+//    }
+//    
     // MARK: - Placeholder
     @IBInspectable var placeHolderColor: UIColor = UIColor.clear {
         didSet {
             attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSForegroundColorAttributeName: placeHolderColor])
         }
     }
+    @IBInspectable var labelLeftColor: UIColor = UIColor.black
     
     // MARK: - Label left view
     @IBInspectable var labelLeft: String = "" {
@@ -32,6 +40,7 @@ public class AwesomeTextField: UITextField {
             label.text = labelLeft
             label.font = UIFont.systemFont(ofSize: font!.pointSize)
             label.sizeToFit()
+            label.textColor = labelLeftColor
             view.frame = CGRect(x: 5, y: 0, width: label.frame.width, height: self.frame.height)
             var center = label.center
             center.x = view.center.x
@@ -157,13 +166,13 @@ public class AwesomeTextField: UITextField {
 // Function
 public extension AwesomeTextField {
     // MARK: - Padding override
-    override public func textRect(forBounds bounds: CGRect) -> CGRect {
+    override open func textRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, paddingValue)
     }
-    override public func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+    override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, paddingValue)
     }
-    override public func editingRect(forBounds bounds: CGRect) -> CGRect {
+    override open func editingRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, paddingValue)
     }
     // MARK: - date time
