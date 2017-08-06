@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NjD-g2-UUX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NjD-g2-UUX">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,6 +25,23 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ce8-hF-j6b">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6o5-vw-cV0" customClass="AwesomeTextField" customModule="AwesomeMVVM">
+                                <rect key="frame" x="12" y="12" width="296" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="he2-8X-OWK"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomLineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yeu-1e-Tro">
                                 <rect key="frame" x="36" y="199" width="248" height="170"/>
                                 <subviews>
@@ -113,6 +130,9 @@
                             <constraint firstItem="IqC-iB-1MP" firstAttribute="leading" secondItem="NWB-hg-vIk" secondAttribute="leadingMargin" constant="20" id="W9f-yX-RBw"/>
                             <constraint firstItem="yeu-1e-Tro" firstAttribute="leading" secondItem="NWB-hg-vIk" secondAttribute="leadingMargin" constant="20" id="WhA-zs-DhV"/>
                             <constraint firstItem="sDX-kj-XhM" firstAttribute="top" secondItem="Ce8-hF-j6b" secondAttribute="bottom" id="hdS-v8-hi3"/>
+                            <constraint firstAttribute="trailing" secondItem="6o5-vw-cV0" secondAttribute="trailing" constant="12" id="ihD-UR-1Jy"/>
+                            <constraint firstItem="6o5-vw-cV0" firstAttribute="leading" secondItem="NWB-hg-vIk" secondAttribute="leading" constant="12" id="kVl-hL-tj3"/>
+                            <constraint firstItem="6o5-vw-cV0" firstAttribute="top" secondItem="NWB-hg-vIk" secondAttribute="top" constant="12" id="qLY-TY-Tbo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cue-7m-EXs"/>

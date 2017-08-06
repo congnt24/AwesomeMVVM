@@ -16,16 +16,6 @@ enum DateFormatType: String {
 
 @IBDesignable
 open class AwesomeTextField: UITextField {
-    open override func layoutSubviews() {
-        if bottomLineWidth > 0 {
-            let border = CALayer()
-            border.borderColor = UIColor.lightGray.cgColor
-            border.frame = CGRect(x: 0, y: frame.size.height - bottomLineWidth, width: bounds.width, height: frame.size.height)
-            border.borderWidth = bottomLineWidth
-            layer.addSublayer(border)
-            layer.masksToBounds = true
-        }
-    }
     
 //    @IBInspectable var labelOnTop: String = "" {
 //        didSet {
@@ -80,10 +70,10 @@ open class AwesomeTextField: UITextField {
         didSet {
             let border = CALayer()
             border.borderColor = UIColor.lightGray.cgColor
-            border.frame = CGRect(x: 0, y: frame.size.height - bottomLineWidth, width: frame.size.width, height: frame.size.height)
+            border.frame = CGRect(x: 0, y: frame.size.height - bottomLineWidth, width: UIScreen.main.bounds.width, height: frame.size.height)
             border.borderWidth = bottomLineWidth
             layer.addSublayer(border)
-//            layer.masksToBounds = true
+            layer.masksToBounds = true
         }
     }
 
@@ -91,10 +81,10 @@ open class AwesomeTextField: UITextField {
         didSet {
             let border = CALayer()
             border.borderColor = bottomLineColor.cgColor
-            border.frame = CGRect(x: 0, y: frame.size.height - bottomLineWidth, width: frame.size.width, height: frame.size.height)
+            border.frame = CGRect(x: 0, y: frame.size.height - bottomLineWidth, width: UIScreen.main.bounds.width, height: frame.size.height)
             border.borderWidth = bottomLineWidth
             layer.addSublayer(border)
-//            layer.masksToBounds = true
+            layer.masksToBounds = true
         }
     }
 
