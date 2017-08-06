@@ -24,15 +24,15 @@ open class AwesomeTextField: UITextField {
 //    }
 //    
     // MARK: - Placeholder
-    @IBInspectable var placeHolderColor: UIColor = UIColor.clear {
+    @IBInspectable public var placeHolderColor: UIColor = UIColor.clear {
         didSet {
             attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSForegroundColorAttributeName: placeHolderColor])
         }
     }
-    @IBInspectable var labelLeftColor: UIColor = UIColor.black
+    @IBInspectable public var labelLeftColor: UIColor = UIColor.black
     
     // MARK: - Label left view
-    @IBInspectable var labelLeft: String = "" {
+    @IBInspectable public var labelLeft: String = "" {
         didSet {
             leftViewMode = .always
             let view = UIView()
@@ -55,7 +55,7 @@ open class AwesomeTextField: UITextField {
 
     // MARK: - padding
     var paddingValue = UIEdgeInsetsMake(0, 5, 0, 5)
-    @IBInspectable var paddingLeft: CGFloat = 5 {
+    @IBInspectable public var paddingLeft: CGFloat = 5 {
         didSet {
             if let left1Image = leftView {
                 paddingValue.left = left1Image.frame.width + paddingLeft
@@ -66,7 +66,7 @@ open class AwesomeTextField: UITextField {
     }
 
     // MARK: - bottom line
-    @IBInspectable var bottomLineWidth: CGFloat = 0 {
+    @IBInspectable public var bottomLineWidth: CGFloat = 0 {
         didSet {
             let border = CALayer()
             border.borderColor = UIColor.lightGray.cgColor
@@ -77,7 +77,7 @@ open class AwesomeTextField: UITextField {
         }
     }
 
-    @IBInspectable var bottomLineColor: UIColor = UIColor.red {
+    @IBInspectable public var bottomLineColor: UIColor = UIColor.red {
         didSet {
             let border = CALayer()
             border.borderColor = bottomLineColor.cgColor
@@ -90,7 +90,7 @@ open class AwesomeTextField: UITextField {
 
     // MARK: - Icon
     // Make sure this func run before set tint color
-    @IBInspectable var leftImage: UIImage? {
+    @IBInspectable public var leftImage: UIImage? {
         didSet {
             leftViewMode = .always
             leftView = createImageViewWrapper(value: leftImage!)
@@ -102,7 +102,7 @@ open class AwesomeTextField: UITextField {
         }
     }
 
-    @IBInspectable var rightImage: UIImage? {
+    @IBInspectable public var rightImage: UIImage? {
         didSet {
             rightViewMode = .always
             if rightViewTintColor != UIColor.clear {
@@ -150,12 +150,12 @@ open class AwesomeTextField: UITextField {
 
 
     // MARK: - Datetime
-    @IBInspectable var enableDatePicker: Bool = false {
+    @IBInspectable public var enableDatePicker: Bool = false {
         didSet {
             setupDatePicker()
         }
     }
-    @IBInspectable var enableTimePicker: Bool = false {
+    @IBInspectable public var enableTimePicker: Bool = false {
         didSet {
             setupDatePicker()
         }
