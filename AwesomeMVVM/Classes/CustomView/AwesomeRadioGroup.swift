@@ -68,20 +68,3 @@ public class AwesomeRadioGroup: UIStackView {
         }
     }
 }
-
-extension UIView {
-    
-    ///EZSE: Loops until it finds the top root view. //TODO: Add to readme
-    func rootView() -> UIView {
-        guard let parentView = superview else {
-            return self
-        }
-        return parentView.rootView()
-    }
-    
-    func copyView() -> UIView?
-    {
-        return NSKeyedUnarchiver.unarchiveObject(with: NSKeyedArchiver.archivedData(withRootObject: self)) as? UIView
-    }
-    
-}
