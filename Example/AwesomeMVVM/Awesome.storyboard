@@ -59,6 +59,8 @@
                                             <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
                                                 <color key="value" cocoaTouchSystemColor="lightTextColor"/>
                                             </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="dateTimeFormat" value="yyyy-MM-dd"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="enableDatePicker" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EEN-B9-MSs" customClass="AwesomeTextField" customModule="AwesomeMVVM">

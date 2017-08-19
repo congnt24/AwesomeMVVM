@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A1C20D1F487E38000903B7 /* StrikeThroughLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C20C1F487E38000903B7 /* StrikeThroughLabel.swift */; };
+		02A1C20F1F487EC0000903B7 /* AwesomeRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C20E1F487EC0000903B7 /* AwesomeRadioGroup.swift */; };
+		02A1C2111F487ED4000903B7 /* AwesomeRadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C2101F487ED4000903B7 /* AwesomeRadioGroupCell.swift */; };
+		02A1C2131F487F27000903B7 /* AwesomeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C2121F487F27000903B7 /* AwesomeSwitch.swift */; };
+		02A1C2151F487F8D000903B7 /* SampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C2141F487F8D000903B7 /* SampleTableView.swift */; };
+		02A1C2171F488085000903B7 /* BaseCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C2161F488085000903B7 /* BaseCustomView.swift */; };
+		02A1C2191F4880D1000903B7 /* AwesomeToggleViewByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C2181F4880D1000903B7 /* AwesomeToggleViewByHeight.swift */; };
+		02A1C21B1F48810D000903B7 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C21A1F48810D000903B7 /* OtherExtension.swift */; };
+		02A1C21D1F488181000903B7 /* AwesomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1C21C1F488181000903B7 /* AwesomeUIView.swift */; };
 		14A17E693835DEF7D5A49472A5FE6FBC /* UISliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA59CDB5C81F305E2196D7BFB1ED49 /* UISliderExtension.swift */; };
 		18AF28074EA924A962148E218D6A19E2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E586DFCF049CAFCDAF89F0E21AC6D04 /* UIViewExtension.swift */; };
 		23D454744BF565653C3C2854FAFEE852 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EF7E7BB45CB4236794EBA0518EABAE /* UITextViewExtension.swift */; };
@@ -60,6 +69,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A1C20C1F487E38000903B7 /* StrikeThroughLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeThroughLabel.swift; sourceTree = "<group>"; };
+		02A1C20E1F487EC0000903B7 /* AwesomeRadioGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeRadioGroup.swift; sourceTree = "<group>"; };
+		02A1C2101F487ED4000903B7 /* AwesomeRadioGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeRadioGroupCell.swift; sourceTree = "<group>"; };
+		02A1C2121F487F27000903B7 /* AwesomeSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeSwitch.swift; sourceTree = "<group>"; };
+		02A1C2141F487F8D000903B7 /* SampleTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableView.swift; sourceTree = "<group>"; };
+		02A1C2161F488085000903B7 /* BaseCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCustomView.swift; sourceTree = "<group>"; };
+		02A1C2181F4880D1000903B7 /* AwesomeToggleViewByHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeToggleViewByHeight.swift; sourceTree = "<group>"; };
+		02A1C21A1F48810D000903B7 /* OtherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtension.swift; sourceTree = "<group>"; };
+		02A1C21C1F488181000903B7 /* AwesomeUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeUIView.swift; sourceTree = "<group>"; };
 		04C665E19627A6A99D5A39A19DE7258E /* AppConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		06BB045BF1FCE5EFB13B554D547A5387 /* Pods-AwesomeMVVM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Tests-resources.sh"; sourceTree = "<group>"; };
 		0D6201F672C88C5DDB0B64B943C2F044 /* Pods-AwesomeMVVM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeMVVM_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -84,7 +102,7 @@
 		6D534DD0AFA62D8A06F99DCFF3A7677E /* RadioGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
 		70A332F57540E529F78820022CFA7D73 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		731FF5F691E095CFECD989D6B86F8E4E /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
-		734DE1D44CFC457ACC7FDE1878674DB3 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
+		734DE1D44CFC457ACC7FDE1878674DB3 /* AwesomeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AwesomeMVVM.modulemap; sourceTree = "<group>"; };
 		745B9689E2D90ED0986DAF9C8A1624B2 /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
 		77235177FD59621218F6AA0DCE50BA33 /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		789CA2A4F44B6210F3AC5FBA456A7C50 /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
@@ -94,17 +112,17 @@
 		8A811CED1E65F8683D9B0EC61D75503B /* Pods-AwesomeMVVM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BFFF76C4BE252E707341F7AD10D2DD0 /* Pods-AwesomeMVVM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Tests-dummy.m"; sourceTree = "<group>"; };
 		8E586DFCF049CAFCDAF89F0E21AC6D04 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98C860C5221E755DFC7301AB6D4EB6C0 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		9AFF58018F4049C88E3C7A765E8184BC /* UINavigationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 		9C544E6F5C81DD2DFDD8B52FED80D7E0 /* Pods-AwesomeMVVM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeMVVM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A11F3BB4153C0FDE27CE5DF8A6973A8D /* AppExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
 		AFA8DF22ACA46CCC8AF0DCC32AB885F5 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		B7AA6FE8DC1F20A333881D3EA338824C /* AwesomeMVVM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-prefix.pch"; sourceTree = "<group>"; };
-		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
+		B8958F0D81F20BBAC719C5DB60E52FD4 /* Pods-AwesomeMVVM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Example.modulemap"; sourceTree = "<group>"; };
 		BB635589E35272306AD887771D2FCA97 /* Pods-AwesomeMVVM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeMVVM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEC02F14D2EC4BDAECEED3551423AC01 /* Pods-AwesomeMVVM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeMVVM_Example-dummy.m"; sourceTree = "<group>"; };
-		BFE0A2697F8D9BC16AE6FA028F36E3A9 /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Tests.framework; path = "Pods-AwesomeMVVM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE0A2697F8D9BC16AE6FA028F36E3A9 /* Pods_AwesomeMVVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51D7CE7C81737E869016E8854902993 /* Pods-AwesomeMVVM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeMVVM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5318A90279A2B17D223C5C20A776B8D /* LanguageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
 		C5EF7E7BB45CB4236794EBA0518EABAE /* UITextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
@@ -113,15 +131,15 @@
 		CD8422BFB9EC47BCCBC013D227EA3BED /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		D37BB50F0D1DD04A9E19ACDF5532CEFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99A5ACF6586C1A7003C99F9CD3A512B /* Pods-AwesomeMVVM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeMVVM_Example-resources.sh"; sourceTree = "<group>"; };
-		E1C10EFA6EA0A7A95A3B272DFFDA972B /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeMVVM_Example.framework; path = "Pods-AwesomeMVVM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C10EFA6EA0A7A95A3B272DFFDA972B /* Pods_AwesomeMVVM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeMVVM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33A4249A04B48BB28A47A3498DF39ED /* CheckedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckedButton.swift; sourceTree = "<group>"; };
 		E3517A8E85540DBC3CE0A460EF9270AF /* AwesomeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
-		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
+		E3F07459EEB004B1367B99C36149CD14 /* Pods-AwesomeMVVM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeMVVM_Tests.modulemap"; sourceTree = "<group>"; };
 		E669A401E1C3A544E10BFE66CEF48DAA /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EBA4A170DAE794B34EDC9A970A95C2C9 /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
 		EE252432EB7DD34D55AFA7D70AD306CE /* AwesomeMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeMVVM-dummy.m"; sourceTree = "<group>"; };
 		F5A109B2FA83253060BD44A1E7025BFF /* AwesomeMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeMVVM-umbrella.h"; sourceTree = "<group>"; };
-		F5F7F933F8F5775CA0126D58D05AB224 /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeMVVM.framework; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F7F933F8F5775CA0126D58D05AB224 /* AwesomeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +185,6 @@
 			children = (
 				A5EAD80C314F5D08136295D922A5FECA /* Classes */,
 			);
-			name = AwesomeMVVM;
 			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
@@ -179,8 +196,10 @@
 				1FB53D31A72263096983EB97C82423B3 /* Coordinator.swift */,
 				43621455D2B3E217FB025F34AA325187 /* LoadingOverlay.swift */,
 				77235177FD59621218F6AA0DCE50BA33 /* Repository.swift */,
+				02A1C2141F487F8D000903B7 /* SampleTableView.swift */,
+				02A1C2161F488085000903B7 /* BaseCustomView.swift */,
+				02A1C2181F4880D1000903B7 /* AwesomeToggleViewByHeight.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -232,7 +251,6 @@
 			children = (
 				CFBE8F87C21E59A6693A4EF6B09EA658 /* Assets */,
 			);
-			name = AwesomeMVVM;
 			path = AwesomeMVVM;
 			sourceTree = "<group>";
 		};
@@ -271,7 +289,6 @@
 				FBD879385274311A116EA134924788B7 /* Extension */,
 				DBC38E7ADDD1C0D2149376BA590F8FFC /* Handler */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -318,8 +335,12 @@
 				789CA2A4F44B6210F3AC5FBA456A7C50 /* LoadMoreTableViewCell.swift */,
 				745B9689E2D90ED0986DAF9C8A1624B2 /* RadioGroup.swift */,
 				6D534DD0AFA62D8A06F99DCFF3A7677E /* RadioGroupCell.swift */,
+				02A1C20C1F487E38000903B7 /* StrikeThroughLabel.swift */,
+				02A1C20E1F487EC0000903B7 /* AwesomeRadioGroup.swift */,
+				02A1C2101F487ED4000903B7 /* AwesomeRadioGroupCell.swift */,
+				02A1C2121F487F27000903B7 /* AwesomeSwitch.swift */,
+				02A1C21C1F488181000903B7 /* AwesomeUIView.swift */,
 			);
-			name = CustomView;
 			path = CustomView;
 			sourceTree = "<group>";
 		};
@@ -328,7 +349,6 @@
 			children = (
 				EBA4A170DAE794B34EDC9A970A95C2C9 /* LoadMoreTableViewCell.xib */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -347,7 +367,6 @@
 				C5318A90279A2B17D223C5C20A776B8D /* LanguageHelper.swift */,
 				1E1F613F279FAF6E057D4904EB5597A0 /* UserDefaultHandler.swift */,
 			);
-			name = Handler;
 			path = Handler;
 			sourceTree = "<group>";
 		};
@@ -371,8 +390,8 @@
 				8E586DFCF049CAFCDAF89F0E21AC6D04 /* UIViewExtension.swift */,
 				6D076356551455C35C6BC1EC2B128922 /* UserDefaultsExtension.swift */,
 				C685DDCDCB666547502DEC1CA7A4010C /* ViewControllerExtension.swift */,
+				02A1C21A1F48810D000903B7 /* OtherExtension.swift */,
 			);
-			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
@@ -511,12 +530,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A1C21D1F488181000903B7 /* AwesomeUIView.swift in Sources */,
 				7F32BA9280E74016514AD790E1A20F6E /* AppConstant.swift in Sources */,
 				673A43B5203F9F02F2271E6F3B994D3F /* AppExtension.swift in Sources */,
 				6AEBA58460005EFE3DB3730E7A05710F /* AwesomeMVVM-dummy.m in Sources */,
 				86EBFD51AE69E1264ABC0AAD3F09D2F3 /* AwesomeTextField.swift in Sources */,
 				B749A7F51B8370D5424F1B726F2AD273 /* BaseViewController.swift in Sources */,
+				02A1C21B1F48810D000903B7 /* OtherExtension.swift in Sources */,
 				9AB93130170C38D473C551A519987F90 /* CGSizeExtension.swift in Sources */,
+				02A1C20F1F487EC0000903B7 /* AwesomeRadioGroup.swift in Sources */,
+				02A1C2171F488085000903B7 /* BaseCustomView.swift in Sources */,
+				02A1C20D1F487E38000903B7 /* StrikeThroughLabel.swift in Sources */,
 				5C24DF4F35E4617A4A58949B14029627 /* CheckedButton.swift in Sources */,
 				BBF3EE292E41E03A4B8A20DCE3874504 /* Coordinator.swift in Sources */,
 				B9CF57DCC3591D734B36C31199E3D06D /* FirebaseHelper.swift in Sources */,
@@ -525,6 +549,8 @@
 				8B98000180814BDD28815274451810BA /* LoadMoreTableViewCell.swift in Sources */,
 				C61D327ADFE995081A98B0C810DC935D /* RadioGroup.swift in Sources */,
 				C08042ACEAB40969054DC74D3C563143 /* RadioGroupCell.swift in Sources */,
+				02A1C2131F487F27000903B7 /* AwesomeSwitch.swift in Sources */,
+				02A1C2191F4880D1000903B7 /* AwesomeToggleViewByHeight.swift in Sources */,
 				8DAD336F27BF47E883319A9B3A654265 /* Repository.swift in Sources */,
 				C7B04E54CAEC09913E5A07CD3F99A482 /* StringExtension.swift in Sources */,
 				38A16D12FE215973FEC00DBFB452160A /* UICollectionViewExtension.swift in Sources */,
@@ -537,7 +563,9 @@
 				D2AA9EE4F1C21A99DE8CF4643A35A0C3 /* UITableViewExtension.swift in Sources */,
 				EE3C905CA305B08B890A2AF891A01C43 /* UITextFieldExtension.swift in Sources */,
 				23D454744BF565653C3C2854FAFEE852 /* UITextViewExtension.swift in Sources */,
+				02A1C2151F487F8D000903B7 /* SampleTableView.swift in Sources */,
 				A259ACEA8BE58FF7CD7F8ADF49830A42 /* UIViewControllerExtension.swift in Sources */,
+				02A1C2111F487ED4000903B7 /* AwesomeRadioGroupCell.swift in Sources */,
 				18AF28074EA924A962148E218D6A19E2 /* UIViewExtension.swift in Sources */,
 				46E5210407220E995B4E79A5DFC7F501 /* UserDefaultHandler.swift in Sources */,
 				4E77F40C923128B51C50D9F8357F87C4 /* UserDefaultsExtension.swift in Sources */,
@@ -573,7 +601,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -656,7 +684,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -691,7 +719,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -727,7 +755,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -767,7 +795,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -804,7 +832,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;

@@ -160,6 +160,9 @@ open class AwesomeTextField: UITextField {
             setupDatePicker()
         }
     }
+    
+    @IBInspectable public var dateTimeFormat: String?
+    
 
 }
 
@@ -201,17 +204,21 @@ public extension AwesomeTextField {
 
     public func formatDate(mode: UIDatePickerMode, date: Date) -> String {
         let dateFormater = DateFormatter()
-        var format: DateFormatType {
-            switch mode {
-            case .time:
-                return .Time
-            case .date:
-                return .Date
-            default:
-                return .Date
+        if let customFormat = dateTimeFormat {
+            dateFormater.dateFormat = customFormat
+        }else{
+            var format: DateFormatType {
+                switch mode {
+                case .time:
+                    return .Time
+                case .date:
+                    return .Date
+                default:
+                    return .Date
+                }
             }
+            dateFormater.setLocalizedDateFormatFromTemplate(format.rawValue)
         }
-        dateFormater.setLocalizedDateFormatFromTemplate(format.rawValue)
         return dateFormater.string(from: date)
     }
 }
