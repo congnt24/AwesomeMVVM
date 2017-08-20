@@ -13,8 +13,8 @@ import UIKit
 /// and checked button in checkedImage field
 @IBDesignable
 open class CheckedButton: UIButton {
-    var isChecked = false
-    var normalImage: UIImage!
+    public var isChecked = false
+    public var normalImage: UIImage!
     @IBInspectable var checkedImage: UIImage? = nil {
         didSet {
             normalImage = image(for: .normal)

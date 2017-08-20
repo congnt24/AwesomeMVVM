@@ -14,7 +14,7 @@ public class AwesomeRadioGroup: UIStackView {
     @IBInspectable var stringData: String = ""
     public var onValueChange: ((Int) -> Void)?
     
-    var checkedPosition = 0 {
+    public var checkedPosition = 0 {
         didSet {
             if onValueChange != nil {
                 onValueChange!(checkedPosition)

@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 open class RadioGroupCell: UIButton {
-    var position: Int!
-    var isChecked = false
-    var normalImage: UIImage!
+    public var position: Int!
+    public var isChecked = false
+    public var normalImage: UIImage!
     @IBInspectable var checkedImage: UIImage? = nil {
         didSet {
             normalImage = image(for: .normal)
