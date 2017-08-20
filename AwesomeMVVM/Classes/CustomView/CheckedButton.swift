@@ -13,7 +13,14 @@ import UIKit
 /// and checked button in checkedImage field
 @IBDesignable
 open class CheckedButton: UIButton {
-    public var isChecked = false
+    public var onChange: ((Bool) -> Void)?
+    public var isChecked = false {
+        didSet {
+            if let onCheck = onChange {
+                onCheck(isChecked)
+            }
+        }
+    }
     public var normalImage: UIImage!
     @IBInspectable var checkedImage: UIImage? = nil {
         didSet {
