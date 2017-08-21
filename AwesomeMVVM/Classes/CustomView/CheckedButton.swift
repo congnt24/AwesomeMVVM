@@ -19,10 +19,11 @@ open class CheckedButton: UIButton {
             if let onCheck = onChange {
                 onCheck(isChecked)
             }
+            setState(check: isChecked)
         }
     }
     public var normalImage: UIImage!
-    @IBInspectable var checkedImage: UIImage? = nil {
+    @IBInspectable public var checkedImage: UIImage? = nil {
         didSet {
             normalImage = image(for: .normal)
         }
@@ -38,12 +39,16 @@ open class CheckedButton: UIButton {
         super.init(frame: frame)
     }
     
-    public func changeState() {
-        if isChecked {
+    
+    public func setState(check: Bool) {
+        if check {
             setImage(normalImage, for: .normal)
         } else {
             setImage(checkedImage, for: .normal)
         }
+    }
+    
+    public func changeState() {
         isChecked = !isChecked
     }
 }
