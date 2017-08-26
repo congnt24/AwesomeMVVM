@@ -161,7 +161,11 @@ open class AwesomeTextField: UITextField {
         }
     }
     
-    @IBInspectable public var dateTimeFormat: String?
+    @IBInspectable public var dateTimeFormat: String? {
+        didSet {
+            setupDatePicker()
+        }
+    }
     
 
 }
