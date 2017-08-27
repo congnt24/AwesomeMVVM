@@ -16,8 +16,10 @@ open class CheckedButton: UIButton {
     public var onChange: ((Bool) -> Void)?
     public var isChecked = false {
         didSet {
-            if let onCheck = onChange {
-                onCheck(isChecked)
+            if isChecked {
+                if let onCheck = onChange {
+                    onCheck(isChecked)
+                }
             }
             setState(check: isChecked)
         }
@@ -41,7 +43,7 @@ open class CheckedButton: UIButton {
     
     
     public func setState(check: Bool) {
-        if check {
+        if !check {
             setImage(normalImage, for: .normal)
         } else {
             setImage(checkedImage, for: .normal)
