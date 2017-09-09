@@ -34,8 +34,10 @@ open class LoadingOverlay {
     lazy var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
     var startAnimatingCustomIndicator: (() -> Void)?
     var stopAnimatingCustomIndicator: (() -> Void)?
+    var isShow = false
+    
     weak var customIndicatorView: UIView?
-
+    
     public class var shared: LoadingOverlay {
         struct Static {
             static let instance: LoadingOverlay = LoadingOverlay()
@@ -49,7 +51,7 @@ open class LoadingOverlay {
         startAnimatingCustomIndicator = startAnimation
         stopAnimatingCustomIndicator = stopAnimation
     }
-
+    
     /// Show loading, then close after xxx milliseconds
     public func showOverlay(view: UIView!, delayToHideInMillis: Int) {
         showOverlay(view: view)
@@ -71,8 +73,11 @@ open class LoadingOverlay {
             break;
         }
     }
-
+    
     private func show(view: UIView!) {
+        if isShow {
+            hideOverlayView()
+        }
         overlayView = UIView(frame: UIScreen.main.bounds)
         overlayView.backgroundColor = LoadingOverlayOption.overlayColor
         if let customIndicatorView = customIndicatorView {
@@ -92,9 +97,11 @@ open class LoadingOverlay {
             activityIndicator.startAnimating()
         }
         view.addSubview(overlayView)
+        isShow = true
     }
-
+    
     public func hideOverlayView() {
+        isShow = false
         switch LoadingOverlayOption.overlayAnimation {
         case .FADE:
             overlayView.fadeOut(duration: LoadingOverlayOption.overlayAnimationDuration, completion: { t in
@@ -106,10 +113,10 @@ open class LoadingOverlay {
             break;
         }
         //Don't need stop animating because we remove wrapper view
-//        if customIndicatorView != nil {
-//            stopAnimatingCustomIndicator!()
-//        } else {
-//            activityIndicator.stopAnimating()
-//        }
+        //        if customIndicatorView != nil {
+        //            stopAnimatingCustomIndicator!()
+        //        } else {
+        //            activityIndicator.stopAnimating()
+        //        }
     }
 }
