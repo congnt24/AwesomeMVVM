@@ -26,7 +26,7 @@ open class AwesomeTextField: UITextField {
     // MARK: - Placeholder
     @IBInspectable public var placeHolderColor: UIColor = UIColor.clear {
         didSet {
-            attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSForegroundColorAttributeName: placeHolderColor])
+            attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSAttributedStringKey.foregroundColor: placeHolderColor])
         }
     }
     @IBInspectable public var labelLeftColor: UIColor = UIColor.black

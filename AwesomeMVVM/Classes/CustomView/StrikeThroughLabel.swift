@@ -12,12 +12,12 @@ import UIKit
 class StrikeThroughLabel: UILabel {
     override func awakeFromNib() {
         let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: text!)
-        attributeString.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: NSMakeRange(0, attributeString.length))
+        attributeString.addAttribute(NSAttributedStringKey.strikethroughStyle, value: 1, range: NSMakeRange(0, attributeString.length))
         attributedText = attributeString
     }
     public func setText(str: String){
         let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: str)
-        attributeString.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: NSMakeRange(0, attributeString.length))
+        attributeString.addAttribute(NSAttributedStringKey.strikethroughStyle, value: 1, range: NSMakeRange(0, attributeString.length))
         attributedText = attributeString
     }
 }
