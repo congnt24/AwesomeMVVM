@@ -48,7 +48,7 @@ open class CheckedButton: UIButton {
         }
     }
 
-    public func changeState() {
+    @objc public func changeState() {
         isChecked = !isChecked
     }
 }

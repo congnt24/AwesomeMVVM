@@ -34,7 +34,7 @@ open class AwesomeRadioGroupCell: UIButton {
         setImage(checkedImage, for: .normal)
     }
     
-    func groupCheck() {
+    @objc func groupCheck() {
         (superview as! AwesomeRadioGroup).checkItem(position: position)
         check()
     }

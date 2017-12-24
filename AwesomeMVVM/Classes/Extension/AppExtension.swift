@@ -402,9 +402,9 @@ public extension App {
     ///
     /// - Parameter object: Any object to find its class name.
     /// - Returns: Class name for given object.
-    public static func typeName(for object: Any) -> String {
-        let type = type(of: object.self)
-        return String.init(describing: type)
-    }
+//    public static func typeName(for object: Any) -> String {
+//        let type = type(of: object.self)
+//        return String.init(describing: type)
+//    }
     
 }

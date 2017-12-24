@@ -201,7 +201,7 @@ public extension AwesomeTextField {
         }
     }
 
-    public func onDateChange(sender: UIDatePicker) {
+    @objc public func onDateChange(sender: UIDatePicker) {
         self.text = formatDate(mode: sender.datePickerMode, date: sender.date)
     }
 
